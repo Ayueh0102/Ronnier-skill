@@ -4,6 +4,10 @@
 *.md   text eol=lf
 *.py   text eol=lf
 *.json text eol=lf
+*.sh   text eol=lf
+
+# PowerShell：保留 UTF-8 BOM（Windows PowerShell 5.1 需要它才能正確讀中文）
+*.ps1  text eol=crlf
 
 # 二進位檔（若日後有）
 *.png binary

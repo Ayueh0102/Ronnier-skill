@@ -1,124 +1,313 @@
-# Applied Color Science — 色彩科學課程學習筆記（Claude Code Skill）
+<div align="center">
 
-一份**色彩科學／色度學的完整中文學習筆記**，包裝成 [Claude Code](https://claude.com/claude-code) 的 skill。
-裝上之後，直接用中文問色彩學的問題就會有人陪你把它講清楚。
+# 🎨 Ronnier Skill
 
-```
-你：亮度跟明度差在哪？
-你：CIEDE2000 為什麼要有旋轉項？
-你：L* = 50 的灰，Y 是多少？
-你：幫我複習色序系統
-```
+### 色彩科學完整中文筆記 · 給 Claude Code 用的一個「隨身教授」
+### A Complete Colour Science Knowledge Base as a Claude Code Skill
 
----
+**[中文](#中文) ｜ [English](#english)**
 
-## ⚠️ 先說清楚
-
-- 這是**學生整理的非官方筆記**，**未經授課教師審閱或背書**。
-- 內容依循 **Ming Ronnier Luo（羅明）教授**於 2021 年在**台灣科技大學色彩與照明科技研究所**
-  開設的 *Applied Color Science* 密集課程的架構與觀點整理而成。
-- **課程錄影、逐字稿、投影片原檔均不隨附，也不會提供。** 本專案只有筆記本身。
-- 內容經過查證與交叉比對，但**錯誤由整理者負責，與教授本人無關**。
-  發現錯誤歡迎開 issue。
+</div>
 
 ---
 
-## 安裝
+> 你以為的「中灰」，其實只反射了 **18%** 的光。
+>
+> CIELAB 裡 `a*` 乘 500、`b*` 乘 200 —— 那個 **2.5 : 1** 的比例是 **1944 年**定下來的，八十年沒人動過。
+>
+> 1976 年 CIE 一口氣推出**兩個**色空間，不是因為需要兩個，是因為兩派人馬誰也說服不了誰。
+>
+> 色彩科學裡這種事很多。**這份筆記就是在講這些。**
+
+---
+
+<a name="中文"></a>
+# 中文
+
+## 這是什麼
+
+一份**色彩科學／色度學的完整中文學習筆記**，包成 [Claude Code](https://claude.com/claude-code) 的 skill。
+
+裝上之後，你可以直接用中文問：
+
+```
+「亮度跟明度到底差在哪？」
+「CIEDE2000 為什麼要有一個旋轉項？」
+「L* = 50 的灰，Y 是多少？」
+「幫我複習色序系統，我明天考試」
+「我要幫賣場選燈，該看什麼指標？」
+```
+
+它會**先講這東西在解什麼問題**，再給定義和公式 —— 而不是丟一堆式子給你背。
+
+**不用 Claude Code 也能用**：`references/` 底下全部是純 Markdown，直接當一本筆記讀就好。
+從 [`references/README_索引.md`](references/README_索引.md) 開始。
+
+---
+
+## 一鍵安裝
+
+**macOS / Linux**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.sh | bash
+```
+
+**Windows（PowerShell）**
+
+```bash
+irm https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.ps1 | iex
+```
+
+**或者手動 clone**
 
 ```bash
 git clone https://github.com/Ayueh0102/Ronnier-skill.git ~/.claude/skills/luo-ming-color-science
 ```
 
-Windows（PowerShell）：
-
-```bash
-git clone https://github.com/Ayueh0102/Ronnier-skill.git "$env:USERPROFILE\.claude\skills\luo-ming-color-science"
-```
-
 裝好之後開一個新的 Claude Code session，問任何色彩學問題就會自動載入，
-也可以打 `/luo-ming-color-science` 手動呼叫。
+也可以打 `/luo-ming-color-science` 手動叫它出來。
 
-**不用 Claude Code 也可以看** —— `references/` 底下全部是純 Markdown，直接讀就是一份完整的課程筆記。
-建議從 [`references/README_索引.md`](references/README_索引.md) 開始。
+**更新**：再跑一次安裝指令就好，它會自動偵測並 `git pull`。
 
 ---
 
-## 內容
+## 裡面有什麼
 
-### 課堂筆記（20 篇，約 13,000 行）
+### 📚 20 篇課堂筆記（約 13,000 行）
 
-| 範圍 | 主題 |
-|---|---|
-| **L01–L02** | CIE 色度學基礎、量測幾何、色匹配實驗、XYZ 三刺激值 |
-| **L03–L05** | 物體光學（Snell／Fresnel／Kubelka–Munk）、量測儀器、不確定度、同色異譜 |
-| **L06** | 光源與色溫、D 系列、螢光燈、LED |
-| **L07–L08** | 眼睛結構、對立色理論、色覺異常、觀察者差異 |
-| **L09–L10** | 心理物理學：四種尺度、Weber／Fechner／Stevens、Thurstone、實驗設計 |
-| **L11–L12** | 色序系統：Munsell、NCS、Ostwald、DIN、OSA-UCS、Coloroid |
-| **L13–L14** | 色差公式：CIELAB → CMC → CIE94 → **CIEDE2000**；參數效應、影像色差、S-CIELAB |
-| **L15** | 同色異譜與同色異譜指數 |
-| **L16–L17** | 色貌：七大屬性、CIECAM02／CAM16、跨媒體複製 |
-| **L18–L19** | 色適應機制、色恆常、CAT02、演色性 CRI |
-| **L20** | 演色性新指標：Rf／Rg／Color Vector Graphic（課程之後的發展） |
+| 範圍 | 主題 | 裡面有什麼好玩的 |
+|---|---|---|
+| **L01–L02** | CIE 基礎、量測幾何、XYZ | 為什麼「XYZ 相同」不代表兩個顏色會配 |
+| **L03–L05** | 物體光學、量測儀器、不確定度 | 玻璃表面永遠反射 4% 的光，這件事怎麼毀掉你的量測 |
+| **L06** | 光源與色溫 | 為什麼賣場都用同一款燈管 |
+| **L07–L08** | 眼睛結構、對立色理論、色覺異常 | 「看到橘色」這件事發生在**大腦**，不是眼睛 |
+| **L09–L10** | 心理物理學、實驗設計 | 怎麼用數學把「你覺得比較亮」變成一個數字 |
+| **L11–L12** | 色序系統：Munsell / NCS / Ostwald / DIN | Ostwald 為什麼停產？因為顏料公司每年都出更飽和的新顏色 |
+| **L13–L14** | 色差公式、影像色差、S-CIELAB | 兩張圖 ΔE 都是 5.8，但人眼一看就知道差很多 —— 怎麼辦 |
+| **L15** | 同色異譜 | 為什麼在店裡看是同色，走到外面就不一樣了 |
+| **L16–L17** | 色貌模型 CIECAM02 / CAM16 | 教授本人說「這題 100% 會考」的那一條公式 |
+| **L18–L19** | 色適應、色恆常、演色性 | 人眼能適應**十億比一**的亮度範圍，瞳孔只負責其中的 10 |
+| **L20** | Rf / Rg / Color Vector Graphic | CRI 用了 50 年，為什麼現在要換掉 |
 
-### 彙整檔
+### 🔍 6 份彙整檔
 
 | 檔案 | 內容 |
 |---|---|
-| [`00-terminology-traps.md`](references/00-terminology-traps.md) | **★ 名詞辨異** —— 亮度／明度／明亮度、彩度／飽和度／色度、照度 vs 亮度。**中文學色彩學最容易卡住的地方** |
-| [`00-formulas.md`](references/00-formulas.md) | 全課公式速查，14 大類 |
+| ⭐ [`00-terminology-traps.md`](references/00-terminology-traps.md) | **中文學色彩學最容易死的地方**：亮度／明度／明亮度、彩度／飽和度／色度、照度 vs 亮度 |
+| [`00-formulas.md`](references/00-formulas.md) | 全部公式速查，14 大類 |
 | [`00-differences.md`](references/00-differences.md) | 「課堂講法 vs 標準說法」，A–H 八類 |
-| [`00-glossary.md`](references/00-glossary.md) | 中英名詞對照 + 轉錄勘誤表 |
-| [`00-literature.md`](references/00-literature.md) | 原始論文出處、2021 課後的新發展 |
+| [`00-glossary.md`](references/00-glossary.md) | 中英名詞對照 + 轉錄勘誤 |
+| [`00-literature.md`](references/00-literature.md) | 原始論文出處、2021 之後的新發展 |
 | [`00-primary-sources.md`](references/00-primary-sources.md) | 原始論文的蒸餾 |
 
 ---
 
-## 這份筆記的幾個特點
+## 為什麼這份跟一般筆記不一樣
 
-**① 分清楚「課堂講法」與「標準說法」**
-課程錄於 2021 年，有些內容已經過時（例如 CAM16 當時「尚未成為 CIECAM16」，
-現在已經是 **CIE 248:2022**）。所有差異都整理在 `00-differences.md`，分八類，
-並標明**考試該寫哪個、實作該用哪個**。
+### 1️⃣ 數字都驗算過，不是抄的
 
-**② 數字都驗算過**
-凡是公式裡的常數，能用邊界條件驗的都驗過。例如：
+教材上的常數，能用邊界條件驗的都驗了。舉個實際抓到的例子：
 
 ```
-DIN 6164 的 Darkness Degree 常數應為 6.1723 而非 6.1273
-   → 因為「最佳色的 D 必須等於 0」，只有 6.1723 成立
+DIN 6164 的 Darkness Degree 常數，教材印的是 6.1273
+   但定義說「D 要以最佳色為原點」→ 最佳色的 D 必須等於 0
+   代進去：6.1273 → D = 0.0729  ❌
+           6.1723 → D = 0.00003 ✅
+   → 是 27 / 72 打反了
 ```
 
-`00-differences.md` 的 F 類列出了教材上的印刷錯誤，
-其中**五個會讓程式直接算錯**，實作前建議先看一眼。
+`00-differences.md` 的 **F 類**列出教材上的印刷錯誤，
+**其中五個會讓你的程式直接算錯**。寫 code 之前建議先看一眼。
 
-**③ 教學導向，不是條列式參考書**
-筆記的寫法是「先講這東西在解什麼問題，再給定義」。
-Skill 的回答風格也照這個走 —— 直接把事情講清楚，不繞路、不考試。
+### 2️⃣ 分清楚「考試怎麼寫」跟「實作怎麼做」
+
+課程錄於 2021 年，有些內容已經過時了（例如當時說 CAM16「還沒成為 CIECAM16」，
+現在它已經是 **CIE 248:2022** 了）。所有差異都標明：
+
+> 課堂上說 X；標準是 Y。**考試寫 X，寫程式用 Y。**
+
+### 3️⃣ 教學導向，不是條列式參考書
+
+寫法一律是「**先講這東西在解什麼問題，再給定義**」。
+Skill 的回答風格也照這個走 —— 直接把事情講清楚，不繞路、不考你。
 
 ---
 
-## 給想自己重建的人
+## ⚠️ 免責聲明
 
-`tools/` 底下有從課程錄影抽出投影片畫面的腳本。
-**請自行確認你有權使用你手上的素材。** 用之前先讀 [`tools/README.md`](tools/README.md)。
+- 這是**學生整理的非官方筆記**，**未經授課教師審閱或背書**。
+- 內容依循 **Ming Ronnier Luo（羅明）教授**於 2021 年在**台灣科技大學色彩與照明科技研究所**
+  開設的 *Applied Color Science* 密集課程的架構與觀點整理而成。
+- **課程錄影、逐字稿、投影片原檔均不隨附，也不會提供。**
+- 內容經查證與交叉比對，但**錯誤由整理者負責，與教授本人無關**。發現錯誤歡迎開 issue。
 
 ---
 
-## 授權
+## 📄 授權
 
 | 部分 | 授權 |
 |---|---|
-| **筆記的組織、解說、驗算、交叉對照、`tools/` 的程式碼** | **CC BY-SA 4.0**（整理者的著作） |
-| **底層的課程內容、教學架構與觀點** | 屬於 **Ming Ronnier Luo 教授**。本專案為學習用途的二次整理，非官方發行 |
-| **色彩科學的公式、標準數值、CIE 規格** | 事實與公開標準，不主張任何權利 |
+| 筆記的組織、解說、驗算、交叉對照、`tools/` 程式碼 | **CC BY-SA 4.0** |
+| 底層的課程內容、教學架構與觀點 | 屬於 **Ming Ronnier Luo 教授**；本專案為學習用途的二次整理，非官方發行 |
+| 色彩科學公式、CIE 標準數值 | 事實與公開標準，不主張權利 |
 
 若權利人認為本專案有任何不妥，請開 issue 或直接聯繫，我會立即配合處理。
 
 ---
 
-## 致謝
+## 🙏 致謝
 
 感謝 **Ming Ronnier Luo（羅明）教授**的授課。
-這門課把色彩科學講成一個從產業需求出發的故事，而不是一堆公式的集合 ——
-這份筆記想保留的就是那個講法。
+
+這門課把色彩科學講成一個**從產業需求出發的故事**，而不是一堆公式的集合 ——
+他自己就是那個因為「色差公式太多，不知道該用哪個」而跑去做色差研究的人，
+後來別人叫他 **"Mr. Colour Difference"**，他說他覺得很榮幸。
+
+這份筆記想保留的，就是那個講法。
+
+---
+---
+
+<a name="english"></a>
+# English
+
+## What is this?
+
+A **complete colour science / colorimetry knowledge base in Traditional Chinese**,
+packaged as a [Claude Code](https://claude.com/claude-code) skill.
+
+Once installed, just ask:
+
+```
+"What's the difference between luminance and lightness?"
+"Why does CIEDE2000 need a rotation term?"
+"If L* = 50, what's Y?"
+"Quiz me on colour order systems, I have an exam tomorrow"
+```
+
+It explains **what problem a thing solves** before giving you the definition and the formula —
+rather than dumping equations on you.
+
+> **Note on language**: the notes themselves are written in **Traditional Chinese**.
+> The skill can answer in English if you ask in English, but the source material is Chinese.
+
+**Don't use Claude Code?** Everything under `references/` is plain Markdown —
+just read it as a textbook. Start at [`references/README_索引.md`](references/README_索引.md).
+
+---
+
+## Install
+
+**macOS / Linux**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.sh | bash
+```
+
+**Windows (PowerShell)**
+
+```bash
+irm https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.ps1 | iex
+```
+
+**Or clone manually**
+
+```bash
+git clone https://github.com/Ayueh0102/Ronnier-skill.git ~/.claude/skills/luo-ming-color-science
+```
+
+Then open a new Claude Code session. It loads automatically when you ask a colour
+science question, or invoke it explicitly with `/luo-ming-color-science`.
+
+**To update**: run the install command again — it detects an existing install and pulls.
+
+---
+
+## What's inside
+
+**20 lecture notes** (~13,000 lines) covering:
+
+- **CIE colorimetry** — measurement geometries, colour matching, XYZ tristimulus values
+- **Object optics** — Snell, Fresnel, Lambert–Beer, Kubelka–Munk
+- **Instruments & uncertainty** — spectrophotometers, physical standards, MCDM, Type A/B errors
+- **Light sources** — colour temperature, D-series, fluorescent, LED
+- **Colour vision** — cone/rod structure, opponent theory, colour deficiency
+- **Psychophysics** — scale types, Weber/Fechner/Stevens, Thurstone, experimental design
+- **Colour order systems** — Munsell, NCS, Ostwald, DIN, OSA-UCS, Coloroid
+- **Colour difference** — CIELAB → CMC → CIE94 → **CIEDE2000**, parametric effects, S-CIELAB
+- **Metamerism** — the four types, and how to compute the metamerism index properly
+- **Colour appearance** — the seven attributes, CIECAM02, CAM16
+- **Chromatic adaptation** — the five mechanisms, von Kries, CAT02, colour inconstancy
+- **Colour rendering** — CRI, and its successors Rf / Rg / Color Vector Graphic
+
+Plus **6 reference files**: a formula index, a terminology-disambiguation guide,
+a "lecture vs. standard" discrepancy table, a glossary, a literature map,
+and distilled primary sources.
+
+---
+
+## What makes it different
+
+**Every constant was verified, not copied.**
+Where a boundary condition could check a number, it was checked. For example:
+
+```
+DIN 6164's darkness-degree constant is printed as 6.1273 in the course material.
+But the definition says D is measured from the optimal colour → D must be 0 there.
+   6.1273  →  D = 0.0729   ✗
+   6.1723  →  D = 0.00003  ✓
+   → digits transposed
+```
+
+The discrepancy table lists **20 errors found in the source material**,
+**five of which will silently break your code** if you copy them.
+
+**It separates "what to write in the exam" from "what to use in production."**
+The course was recorded in 2021 and some of it has aged — CAM16 has since become
+**CIECAM16 (CIE 248:2022)**, for instance. Every such gap is flagged both ways.
+
+**It teaches, rather than lists.**
+Every topic starts with the problem it exists to solve.
+
+---
+
+## ⚠️ Disclaimer
+
+These are **unofficial student notes**, **not reviewed or endorsed** by the instructor.
+
+The content follows the structure and perspective of the *Applied Color Science*
+intensive course taught by **Prof. Ming Ronnier Luo** at the Graduate Institute of
+Colour and Illumination Technology, National Taiwan University of Science and
+Technology, in 2021.
+
+**No lecture recordings, transcripts, or original slides are included or distributed.**
+
+Content has been cross-checked and verified, but **any errors are the compiler's
+responsibility, not the instructor's.** Issues and corrections welcome.
+
+---
+
+## 📄 Licence
+
+| Component | Licence |
+|---|---|
+| Organisation, explanations, verification, cross-referencing, `tools/` code | **CC BY-SA 4.0** |
+| Underlying course content, teaching structure and perspective | Belongs to **Prof. Ming Ronnier Luo**. This is a study-purpose secondary compilation, not an official publication |
+| Colour science formulae and CIE standard values | Facts and public standards — no rights asserted |
+
+If any rights holder considers anything here inappropriate, please open an issue
+or get in touch and it will be addressed immediately.
+
+---
+
+## 🙏 Acknowledgement
+
+Thanks to **Prof. Ming Ronnier Luo** for the course.
+
+He turned colour science into a story that starts from industrial need rather than
+a pile of equations — fittingly, he got into colour difference research in the first
+place because *"there were too many colour difference formulae and nobody knew which
+one to use."* People call him **"Mr. Colour Difference"**, and he says he's honoured.
+
+That way of telling it is what these notes try to preserve.
