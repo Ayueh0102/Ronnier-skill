@@ -47,28 +47,48 @@
 
 ## 一鍵安裝
 
-**macOS / Linux**
+支援 **Claude Code**、**Codex**，以及任何讀 `AGENTS.md` 的工具（Cursor / Windsurf / Cline）。
+
+### 🟣 Claude Code
+
+| 平台 | 指令 |
+|---|---|
+| 🍎 **macOS** ／ 🐧 **Linux** | `curl -fsSL https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.sh \| bash` |
+| 🪟 **Windows**（PowerShell） | `irm https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.ps1 \| iex` |
+
+裝好之後開一個**新的** session，問任何色彩學問題就會自動載入，
+也可以打 `/luo-ming-color-science` 手動叫它。
+
+### 🟢 Codex
+
+同一支腳本加 `--codex`，會把知識庫放到 `~/.colour-science` 並寫進 `~/.codex/AGENTS.md`：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.sh | bash
+# macOS / Linux
+curl -fsSL https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.sh | bash -s -- --codex
 ```
-
-**Windows（PowerShell）**
 
 ```bash
-irm https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.ps1 | iex
+# Windows：先下載再帶參數執行
+irm https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.ps1 -OutFile i.ps1 ; .\i.ps1 -Codex
 ```
 
-**或者手動 clone**
+### 🔵 Cursor / Windsurf / Cline
+
+clone 進你的專案，然後在規則檔裡指過去：
 
 ```bash
-git clone https://github.com/Ayueh0102/Ronnier-skill.git ~/.claude/skills/luo-ming-color-science
+git clone --depth 1 https://github.com/Ayueh0102/Ronnier-skill.git .colour-science
 ```
 
-裝好之後開一個新的 Claude Code session，問任何色彩學問題就會自動載入，
-也可以打 `/luo-ming-color-science` 手動叫它出來。
+### 📖 只想讀筆記
 
-**更新**：再跑一次安裝指令就好，它會自動偵測並 `git pull`。
+不用裝任何東西 —— `references/` 全部是純 Markdown，
+從 [`references/README_索引.md`](references/README_索引.md) 開始就好。
+
+> **📘 完整安裝說明（含手動安裝、更新、移除、疑難排解）：[`INSTALL.md`](INSTALL.md)**
+
+**更新**：再跑一次一鍵安裝指令，它會自動偵測並 `git pull`。
 
 ---
 
@@ -141,6 +161,21 @@ Skill 的回答風格也照這個走 —— 直接把事情講清楚，不繞路
   開設的 *Applied Color Science* 密集課程的架構與觀點整理而成。
 - **課程錄影、逐字稿、投影片原檔均不隨附，也不會提供。**
 - 內容經查證與交叉比對，但**錯誤由整理者負責，與教授本人無關**。發現錯誤歡迎開 issue。
+
+---
+
+## 📂 專案裡有哪些檔案
+
+| 檔案 | 給誰看 | 內容 |
+|---|---|---|
+| **[`INSTALL.md`](INSTALL.md)** | 所有人 | **完整安裝說明** —— 分平台（Mac/Windows/Linux）、分工具（Claude Code/Codex/Cursor） |
+| [`SKILL.md`](SKILL.md) | Claude Code | skill 本體：路由表、答題原則、教學風格 |
+| [`AGENTS.md`](AGENTS.md) | **Codex / Cursor / 其他 agent** | 同樣的內容，改成 `AGENTS.md` 格式 |
+| [`references/`](references) | 所有人 | **知識庫本身**（20 篇筆記 + 6 份彙整） |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | 想貢獻的人 | A–H 分類慣例、驗算原則、寫作風格 |
+| [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) | 想幫忙的人 | 5 個查不到確定答案的項目 |
+| [`PROJECT.md`](PROJECT.md) | 想做同樣事的人 | 製作方法、驗證流程、踩過的坑 |
+| [`tools/`](tools) | 有原始素材的人 | 從螢幕錄影抽投影片的腳本 |
 
 ---
 
@@ -220,26 +255,47 @@ just read it as a textbook. Start at [`references/README_索引.md`](references/
 
 ## Install
 
-**macOS / Linux**
+Works with **Claude Code**, **Codex**, and anything that reads `AGENTS.md`
+(Cursor / Windsurf / Cline).
+
+### 🟣 Claude Code
+
+| Platform | Command |
+|---|---|
+| 🍎 **macOS** / 🐧 **Linux** | `curl -fsSL https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.sh \| bash` |
+| 🪟 **Windows** (PowerShell) | `irm https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.ps1 \| iex` |
+
+Then open a **new** session. It loads automatically when you ask a colour science
+question, or invoke it with `/luo-ming-color-science`.
+
+### 🟢 Codex
+
+Same script with `--codex` — installs to `~/.colour-science` and registers it in
+`~/.codex/AGENTS.md`:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.sh | bash
+# macOS / Linux
+curl -fsSL https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.sh | bash -s -- --codex
 ```
-
-**Windows (PowerShell)**
 
 ```bash
-irm https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.ps1 | iex
+# Windows: download first, then run with the flag
+irm https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.ps1 -OutFile i.ps1 ; .\i.ps1 -Codex
 ```
 
-**Or clone manually**
+### 🔵 Cursor / Windsurf / Cline
+
+Clone into your project, then point your rules file at it:
 
 ```bash
-git clone https://github.com/Ayueh0102/Ronnier-skill.git ~/.claude/skills/luo-ming-color-science
+git clone --depth 1 https://github.com/Ayueh0102/Ronnier-skill.git .colour-science
 ```
 
-Then open a new Claude Code session. It loads automatically when you ask a colour
-science question, or invoke it explicitly with `/luo-ming-color-science`.
+### 📖 Just reading
+
+Nothing to install — everything under `references/` is plain Markdown.
+
+> **📘 Full instructions (manual install, updating, uninstalling, troubleshooting): [`INSTALL.md`](INSTALL.md)**
 
 **To update**: run the install command again — it detects an existing install and pulls.
 
@@ -306,6 +362,21 @@ Technology, in 2021.
 
 Content has been cross-checked and verified, but **any errors are the compiler's
 responsibility, not the instructor's.** Issues and corrections welcome.
+
+---
+
+## 📂 What's in this repo
+
+| File | For whom | What |
+|---|---|---|
+| **[`INSTALL.md`](INSTALL.md)** | Everyone | **Full install guide** — per-platform (Mac/Windows/Linux), per-tool (Claude Code/Codex/Cursor) |
+| [`SKILL.md`](SKILL.md) | Claude Code | The skill itself: routing table, answering principles, teaching style |
+| [`AGENTS.md`](AGENTS.md) | **Codex / Cursor / other agents** | Same guidance in `AGENTS.md` format |
+| [`references/`](references) | Everyone | **The knowledge base** (20 lecture notes + 6 reference files) |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contributors | Classification convention (A–H), verification principles, style |
+| [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) | Contributors | 5 items that could not be confirmed |
+| [`PROJECT.md`](PROJECT.md) | Anyone doing the same | Build method, verification pipeline, mistakes made |
+| [`tools/`](tools) | Those with source material | Slide-extraction script for screen recordings |
 
 ---
 
