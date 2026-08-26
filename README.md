@@ -144,6 +144,18 @@ Skill 的回答風格也照這個走 —— 直接把事情講清楚，不繞路
 
 ---
 
+## 🤝 想幫忙？
+
+筆記裡有幾個地方**查不到確定答案，一律標成「存疑」而不是猜一個寫上去** ——
+全部集中在 [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md)。
+如果你手上有原始文獻能確認任何一項，非常歡迎。
+
+要修正或補充內容，請先看 [`CONTRIBUTING.md`](CONTRIBUTING.md) ——
+裡面說明了 **A–H 八類**的分類慣例，以及一個重要原則：
+**「課堂講法」與「標準說法」兩個都要保留，不要因為後者才對就刪掉前者。**
+
+---
+
 ## 📄 授權
 
 | 部分 | 授權 |
@@ -285,6 +297,18 @@ Technology, in 2021.
 
 Content has been cross-checked and verified, but **any errors are the compiler's
 responsibility, not the instructor's.** Issues and corrections welcome.
+
+---
+
+## 🤝 Contributing
+
+A handful of details could not be confirmed against primary sources. Rather than
+guess, they were marked as uncertain and collected in
+[`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md). If you can settle any of them, please do.
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the classification convention (categories
+A–H) and one important rule: **both "what was taught" and "what the standard says"
+are kept — don't delete the former just because the latter is correct.**
 
 ---
 
