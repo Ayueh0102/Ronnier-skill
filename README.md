@@ -144,6 +144,15 @@ Skill 的回答風格也照這個走 —— 直接把事情講清楚，不繞路
 
 ---
 
+## 🔧 這份筆記是怎麼做的
+
+[`PROJECT.md`](PROJECT.md) 記錄了整個製作流程、驗證方法，以及踩過的坑。
+
+**如果你想對自己的課做同一件事，那份可以整套搬走** ——
+從「怎麼從螢幕錄影抽投影片」到「怎麼用邊界條件驗證一個常數對不對」都有。
+
+---
+
 ## 🤝 想幫忙？
 
 筆記裡有幾個地方**查不到確定答案，一律標成「存疑」而不是猜一個寫上去** ——
@@ -297,6 +306,17 @@ Technology, in 2021.
 
 Content has been cross-checked and verified, but **any errors are the compiler's
 responsibility, not the instructor's.** Issues and corrections welcome.
+
+---
+
+## 🔧 How this was built
+
+[`PROJECT.md`](PROJECT.md) documents the whole pipeline — source hierarchy,
+verification methodology, and the mistakes made along the way.
+
+**If you want to do the same thing for your own course, that document is reusable
+as a method** — from extracting slides out of screen recordings to verifying a
+printed constant against a boundary condition.
 
 ---
 
