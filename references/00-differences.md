@@ -4,14 +4,14 @@
 
 | 類 | 內容 | 怎麼用 |
 |---|---|---|
-| **A** | 明確的口誤或錯誤 | **必須更正**（其中 A12、A13、A16 已由投影片翻案） |
+| **A** | 明確的口誤或錯誤 | **必須更正**（其中 A12、A13、A16 已由教材原文翻案） |
 | **B** | 教學簡化 | 方向對但不精確 |
 | **C** | 老師的研究立場 | 教科書不一定有，但很有價值 |
 | **D** | 老師沒講但實作必備的補充 | 寫程式 / 寫論文時看 |
 | **E** | 2021 年之後的發展 | 課程已過時的部分 |
-| **F** | **投影片本身印錯**（20 項） | **★ 老師照唸沒錯，是教材的錯 —— 考試照投影片，實作用正確版** |
-| **G** | **投影片對、老師口述錯**（11 項） | **★ 以投影片為準** |
-| **H** | **只有抽投影片才有、課堂沒講的內容**（3 項） | **★ 課堂上沒有講到，額外收穫** |
+| **F** | **教材本身印錯**（20 項） | **★ 老師照唸沒錯，是教材的錯 —— 考試照教材，實作用正確版** |
+| **G** | **教材對、老師口述錯**（11 項） | **★ 以教材為準** |
+| **H** | **教材上有、課堂沒展開講的內容**（3 項） | **★ 只聽課不會知道** |
 
 ---
 
@@ -34,11 +34,11 @@
 | ~~A13~~ | ~~**「Ostwald 系統是瑞士標準」**~~ | **★ 2026-08-26 解謎**：教材「Ostwald - History」最後一列寫 **`1960 Swiss Color Atlas 2541`** → 老師指的是這本**瑞士色彩圖冊**，不是「瑞士國家標準」。Wilhelm Ostwald 本人是**德國**化學家（1909 諾貝爾化學獎）；美國實作是 *Color Harmony Manual*；**DIN 6164 才是德國標準** | L12 |
 | A14 | **OSA-UCS 委員會「1969/1930」** | 兩個不同委員會：**OSA Colorimetry Committee（1930s–1943）→ Munsell Renotation**；**OSA Committee on Uniform Color Scales（1947 成立）→ OSA-UCS（1974/1977）** | L12 |
 | A15 | **OSA-UCS 是「dodecahedron 十二面體」** | **12 個等距鄰居構成 cuboctahedron（截半立方體）**；十二面體有 12 面但 20 頂點 | L12 |
-| **A16** | **MacAdam 的觀察者叫 "Peter Lutin"** | ✅ **2026-08-26 由投影片直接證實**：教材「Non-uniformity (MacAdam Data, 1942)」上明文寫著 **"25 colour centres / One observer (PGN) / Visual colorimeter / JND – Just noticeable difference"** → **PGN = Perley G. Nutting Jr.**；「Peter Lutin」是聽寫時的誤植 | L13 |
+| **A16** | **MacAdam 的觀察者叫 "Peter Lutin"** | ✅ **2026-08-26 由教材原文直接證實**：教材「Non-uniformity (MacAdam Data, 1942)」明文寫著 **"25 colour centres / One observer (PGN) / Visual colorimeter / JND – Just noticeable difference"** → **PGN = Perley G. Nutting Jr.**；「Peter Lutin」是聽寫時的誤植 | L13 |
 | A17 | **MacAdam「右眼看一個、左眼看另一個」** | 用的是**雙眼觀看的二分視野視覺色度計**，不是分眼觀看 | L13 |
 | **A18** | **CRI 用「10° 色匹配函數」** | ✅ **2026-08-26 查證結案：錯。CIE 13.3 程序第一步明文寫 *"Using the 2° standard observer…"* → 全程用 CIE 1931 2°**。其餘步驟（von Kries CAT、CIE 1964 U\*V\*W\*、R_i=100−4.6ΔE_i、Ra 為 8 色樣平均、5000 K 分界）老師都講對了 | L19 |
 | A19 | **「NCS 有 14,012 個色樣」** | **1,412 個**（Edition 1）；Edition 2 約 **1,750** 個 | L11 |
-| **A20** | **「Stiles & Burch 18 位」** | ⚠️ **2026-08-26 修正我自己的歸因**：這**不是**口誤——**教材本身就寫 "Stile & Burch - 18 obs (1959)"**。<br>**通行文獻是 49 人**（1959 年 10° 大視野研究；1955 年的 2° 前導研究才是 10 人）。**Wright 10、Guild 7、Speranskaya 27 則投影片與文獻一致。**<br>**考題照投影片寫 18，論文寫 49。**（記錄裡的「4549」是把 45/49 之類的數字黏在一起） | L02 |
+| **A20** | **「Stiles & Burch 18 位」** | ⚠️ **2026-08-26 修正我自己的歸因**：這**不是**口誤——**教材本身就寫 "Stile & Burch - 18 obs (1959)"**。<br>**通行文獻是 49 人**（1959 年 10° 大視野研究；1955 年的 2° 前導研究才是 10 人）。**Wright 10、Guild 7、Speranskaya 27 則教材與文獻一致。**<br>**考題照教材寫 18，論文寫 49。**（記錄裡的「4549」是把 45/49 之類的數字黏在一起） | L02 |
 
 ---
 
@@ -169,51 +169,53 @@
 
 ---
 
-# F. ⚠️★ 投影片「本身」的錯誤
-**（2026-08-26 起，由 932 張擷取投影片逐張核對時發現）**
+# F. ⚠️★ 教材「本身」印錯的地方
 
-**這一類最需要小心**：老師說「考題全部出自投影片」，所以**答題要照投影片；但實作與論文絕不能照抄**。
-以下每一項我都確認過**不是聽寫錯誤、也不是老師口誤——是教材印錯**。
+**這一類最需要小心**：老師說過「考題全部出自教材」，所以**答題要照教材寫；
+但實作與論文絕不能照抄**。
 
-| # | 投影片 | 印的是 | 正解 | 後果 |
+以下每一項都與教材原文核對過 —— **不是聽寫錯誤、也不是老師口誤，是教材上就印錯了**。
+每一項凡是能用邊界條件驗算的，都驗算過。
+
+| # | 出處 | 教材印的 | 正解 | 後果 |
 |---|---|---|---|---|
-| **F1** | 教材、教材 等多張<br>「Colorimetry - Colour Specification」 | **`k = 100 / Σ R(λ)·S(λ)·ȳ(λ)`**<br>（分母含樣品反射率 R(λ)） | **`k = 100 / Σ S(λ)·ȳ(λ)·Δλ`**<br>（分母只有照明體與 ȳ） | **★ 最嚴重的一個**。照抄的話 **R(λ) 在分子分母抵銷 → 每個樣品的 Y 都等於 100**。寫程式一定算錯 |
-| **F2** | 教材<br>「Colour Matching Function」 | **`Stile & Burch - 18 obs (1959)`** | **49 人**（1959 年 10° 大視野研究；1955 年的 2° 前導研究才是 10 人） | 同張投影片的 **Wright 10、Guild 7、Speranskaya 27 都正確**，只有這一個錯 |
-| **F3** | 教材<br>「Spds of three types of fluorescent lamp」 | 汞譜線 **`405, 436, 456, 577 nm`** | **`404.7, 435.8, 546.1, 577/579 nm`**<br>（**456 → 546.1**） | 546.1 nm 是螢光燈光譜上最顯眼的綠線，寫成 456 會落在藍區 |
-| **F4** | 教材<br>「Theory - Weber's law」 | 標題下方寫 **`Early 1990`** | **1834 年**（Ernst Heinrich Weber） | 差了 156 年。正確順序：**Weber 1834 → Fechner 1860 → Thurstone 1927 → Torgerson 1954 → Stevens 1957** |
-| **F5** | 教材<br>Advanced Colour Science 補充教材 | **兩份都標成 `CIE 170-1:2006`**（Part I 與 Part II） | **Part II 是 `CIE 170-2:2015`** | 引用時要改 |
-| **F6** | 教材<br>「Relation to the CIE System」<br>Munsell V→Y 五次多項式 | **`… + 0.021009V⁴ + …`**（加號） | **`… − 0.021009V⁴ + …`**（減號） | **驗算 V=10**：正確式得 **Y = 102.57** ✅；投影片式得 **Y = 522.75** ❌ —— **差五倍** |
-| **F7** | 教材<br>「Why Munsell?」 | **`Internally well known`** | **`Internationally well known`** | **老師自己在課堂上當場發現並更正**（`08-12-03.mp4` 00:47:06：*"I apologize for this. This is not internally. It's internationally well known."*）—— 唯一一個他自己抓到的投影片錯字 |
-| **F8** | 教材<br>「NCS - Summary」 | **`Standard in Sweden, Noway and Portugal`** | **`Sweden, Norway and Spain`**<br>（西班牙標準編號 **UNE 48-103**） | **一行兩個問題**：① `Noway` → `Norway` 錯字；② `Portugal` → 應為 `Spain`。<br>**原本被我誤列為 A12 口誤 —— 其實老師是照唸投影片。**<br>考試寫 Portugal，論文寫 Spain |
-| **F9** | 教材<br>「Ostwald - History」第一列 | **`1915 Die Farbelechre (The Color Primer)`** | 德文書名拼字有誤。英文標題 *The Color Primer* 對應的是 Ostwald 的 ***Die Farbenfibel***（1916/17）；***Die Farbenlehre*** 是另一套較大部頭的著作（1918–23） | 年份 1915 也偏早一年左右。**這一列只要記「Ostwald 的起點著作是 1915 前後的色彩入門書」即可，不必背拼字** |
-| **★★ F10** | 教材<br>「Relation to the CIE System」<br>**DIN 6164 Darkness Degree** | **`D = 10 − 6.1273·log₁₀(40.7A/A₀ + 1)`** | **`D = 10 − 6.1723·log₁₀(40.7A/A₀ + 1)`**<br>（**27 / 72 數字顛倒**） | **★ 可由邊界條件證明**：投影片 `s014` 定義「D 以**最佳色為原點**」→ **A = A₀ 時 D 必須 = 0**。<br>`6.1723` → **D = 0.00003** ✅<br>`6.1273` → **D = 0.0729** ❌<br>（`10 / log₁₀41.7 = 6.17232`）<br>**寫程式務必用 6.1723** |
-| **F11** | 教材「Ostwald - Summary」 | **`Herring's opponent colour theory`** | **`Hering`**（赫林，德國生理學家 1834–1918） | 與 A11 同源的拼字問題；此處是**投影片**寫錯，不是老師口誤 |
-| **F12** | 教材「Relation to the CIE System」 | **`Color Hamony Manual`**、**`Journal of the Optical Society of Amerca (1944)`** | `Harmony`、`America` | 純拼字。**該文獻的正確引用**：Foss, Nickerson & Granville (1944), *JOSA* **34**(7), 361–381 |
-| **F13** | 教材 該張投影片最後一行 | **`Interpolate to determine other valkues.`** | `values` | 純拼字 |
-| **F14** | 教材「DIN - Variables」 | **`24 principle hues`** | **`principal`**（主要的）<br>`principle` 是「原則」名詞 | 同一份投影片在 教材 用 `Guiding Principles` 是對的，這裡混用了 |
-| **★★ F15** | 教材<br>「CIE 1976 u'v' diagram」 | **`u' = 4X/(X+15Y+3)`**<br>**`v' = 9Y/(X+15Y+3)`** | **`u' = 4X/(X+15Y+3Z)`**<br>**`v' = 9Y/(X+15Y+3Z)`**<br>（**`3Z` 的 Z 被打掉了**） | **同一張的 xy 版本是對的**：`4x/(−2x+12y+3)`、`9y/(−2x+12y+3)` ✅<br>**驗算**：`x+15y+3z = x+15y+3(1−x−y) = −2x+12y+3` ✅<br>**→ 把 xy 式的常數 3 誤抄到 XYZ 式**。<br>**⚠️ 照抄會直接算錯，藍區全跑掉** |
-| **★ F16** | 教材<br>「CIEL\*u\*v\* (CIELUV)」 | **`L* = 903.0 (Y/Yn)`** | **`L* = 903.3 (Y/Yn)`**<br>（精確值 **κ = 24389/27 = 903.2963**） | **一行證明**：`κ·ε = (24389/27)(216/24389) = 216/27 = 8`，恰好接上立方根段在 ε 處的 `L* = 8`。<br>用 903.0 → 7.997，轉折點不連續 |
-| **★★ F17** | 教材 同張最後一行 | **`s_uv = C*uv/L* = 13 (u*² + v*²)^(1/2)`** | **`s_uv = 13 [(u'−u'n)² + (v'−v'n)²]^(1/2)`**<br>（**撇號與 n 下標被打掉，變成 u\*、v\***） | **推導**：`C*uv = 13L*√[(u'−u'n)²+(v'−v'n)²]`，除以 L\* 後 **L\* 消失**。<br>投影片的寫法等於 `13·C*uv`，**不但沒消掉 L\*，還多乘了 13L\***，量綱錯 |
-| **F18** | 教材<br>「Munsell Based Formulae」ANLAB | **`ΔE = √ 40{…}`**（40 被畫進根號內） | **`ΔE = 40 · √{…}`**（40 是根號外的比例係數） | **理由**：這個公式的通稱是 **`ANLAB(40)`**，就是因為那個 40 是**外乘的縮放常數**。<br>若在根號內，實際縮放只有 √40 ≈ 6.32，公式該叫 ANLAB(6.32) |
+| **F1** | 「Colorimetry - Colour Specification」 | **`k = 100 / Σ R(λ)·S(λ)·ȳ(λ)`**<br>（分母含樣品反射率 R(λ)） | **`k = 100 / Σ S(λ)·ȳ(λ)·Δλ`**<br>（分母只有照明體與 ȳ） | **★ 最嚴重的一個**。照抄的話 **R(λ) 在分子分母抵銷 → 每個樣品的 Y 都等於 100**。寫程式一定算錯 |
+| **F2** | 「Colour Matching Function」 | **`Stile & Burch - 18 obs (1959)`** | **49 人**（1959 年 10° 大視野研究；1955 年的 2° 前導研究才是 10 人） | 同一處的 **Wright 10、Guild 7、Speranskaya 27 都正確**，只有這一個錯 |
+| **F3** | 「Spds of three types of fluorescent lamp」 | 汞譜線 **`405, 436, 456, 577 nm`** | **`404.7, 435.8, 546.1, 577/579 nm`**<br>（**456 → 546.1**） | 546.1 nm 是螢光燈光譜上最顯眼的綠線，寫成 456 會落在藍區 |
+| **F4** | 「Theory - Weber's law」 | 標題下方寫 **`Early 1990`** | **1834 年**（Ernst Heinrich Weber） | 差了 156 年。正確順序：**Weber 1834 → Fechner 1860 → Thurstone 1927 → Torgerson 1954 → Stevens 1957** |
+| **F5** | Advanced Colour Science 補充教材 | **兩份都標成 `CIE 170-1:2006`**（Part I 與 Part II） | **Part II 是 `CIE 170-2:2015`** | 引用時要改 |
+| **F6** | 「Relation to the CIE System」<br>Munsell V→Y 五次多項式 | **`… + 0.021009V⁴ + …`**（加號） | **`… − 0.021009V⁴ + …`**（減號） | **驗算 V=10**：正確式得 **Y = 102.57** ✅；教材式得 **Y = 522.75** ❌ —— **差五倍** |
+| **F7** | 「Why Munsell?」 | **`Internally well known`** | **`Internationally well known`** | **老師自己在課堂上當場發現並更正**（`08-12-03.mp4` 00:47:06：*"I apologize for this. This is not internally. It's internationally well known."*）—— 唯一一個他自己抓到的教材錯字 |
+| **F8** | 「NCS - Summary」 | **`Standard in Sweden, Noway and Portugal`** | **`Sweden, Norway and Spain`**<br>（西班牙標準編號 **UNE 48-103**） | **一行兩個問題**：① `Noway` → `Norway` 錯字；② `Portugal` → 應為 `Spain`。<br>**原本被我誤列為 A12 口誤 —— 其實老師是照唸教材。**<br>考試寫 Portugal，論文寫 Spain |
+| **F9** | 「Ostwald - History」第一列 | **`1915 Die Farbelechre (The Color Primer)`** | 德文書名拼字有誤。英文標題 *The Color Primer* 對應的是 Ostwald 的 ***Die Farbenfibel***（1916/17）；***Die Farbenlehre*** 是另一套較大部頭的著作（1918–23） | 年份 1915 也偏早一年左右。**這一列只要記「Ostwald 的起點著作是 1915 前後的色彩入門書」即可，不必背拼字** |
+| **★★ F10** | 「Relation to the CIE System」<br>**DIN 6164 Darkness Degree** | **`D = 10 − 6.1273·log₁₀(40.7A/A₀ + 1)`** | **`D = 10 − 6.1723·log₁₀(40.7A/A₀ + 1)`**<br>（**27 / 72 數字顛倒**） | **★ 可由邊界條件證明**：教材另一處定義「D 以**最佳色為原點**」→ **A = A₀ 時 D 必須 = 0**。<br>`6.1723` → **D = 0.00003** ✅<br>`6.1273` → **D = 0.0729** ❌<br>（`10 / log₁₀41.7 = 6.17232`）<br>**寫程式務必用 6.1723** |
+| **F11** | 「Ostwald - Summary」 | **`Herring's opponent colour theory`** | **`Hering`**（赫林，德國生理學家 1834–1918） | 與 A11 同源的拼字問題；此處是**教材**寫錯，不是老師口誤 |
+| **F12** | 「Relation to the CIE System」 | **`Color Hamony Manual`**、**`Journal of the Optical Society of Amerca (1944)`** | `Harmony`、`America` | 純拼字。**該文獻的正確引用**：Foss, Nickerson & Granville (1944), *JOSA* **34**(7), 361–381 |
+| **F13** | 「Relation to the CIE System」最後一行 | **`Interpolate to determine other valkues.`** | `values` | 純拼字 |
+| **F14** | 「DIN - Variables」 | **`24 principle hues`** | **`principal`**（主要的）<br>`principle` 是「原則」名詞 | 同一份同一份教材在別處用 `Guiding Principles` 是對的，這裡混用了 |
+| **★★ F15** | 「CIE 1976 u'v' diagram」 | **`u' = 4X/(X+15Y+3)`**<br>**`v' = 9Y/(X+15Y+3)`** | **`u' = 4X/(X+15Y+3Z)`**<br>**`v' = 9Y/(X+15Y+3Z)`**<br>（**`3Z` 的 Z 被打掉了**） | **同一張的 xy 版本是對的**：`4x/(−2x+12y+3)`、`9y/(−2x+12y+3)` ✅<br>**驗算**：`x+15y+3z = x+15y+3(1−x−y) = −2x+12y+3` ✅<br>**→ 把 xy 式的常數 3 誤抄到 XYZ 式**。<br>**⚠️ 照抄會直接算錯，藍區全跑掉** |
+| **★ F16** | 「CIEL\*u\*v\* (CIELUV)」 | **`L* = 903.0 (Y/Yn)`** | **`L* = 903.3 (Y/Yn)`**<br>（精確值 **κ = 24389/27 = 903.2963**） | **一行證明**：`κ·ε = (24389/27)(216/24389) = 216/27 = 8`，恰好接上立方根段在 ε 處的 `L* = 8`。<br>用 903.0 → 7.997，轉折點不連續 |
+| **★★ F17** | 「CIEL*u*v* (CIELUV)」最後一行 | **`s_uv = C*uv/L* = 13 (u*² + v*²)^(1/2)`** | **`s_uv = 13 [(u'−u'n)² + (v'−v'n)²]^(1/2)`**<br>（**撇號與 n 下標被打掉，變成 u\*、v\***） | **推導**：`C*uv = 13L*√[(u'−u'n)²+(v'−v'n)²]`，除以 L\* 後 **L\* 消失**。<br>教材的寫法等於 `13·C*uv`，**不但沒消掉 L\*，還多乘了 13L\***，量綱錯 |
+| **F18** | 「Munsell Based Formulae」ANLAB | **`ΔE = √ 40{…}`**（40 被畫進根號內） | **`ΔE = 40 · √{…}`**（40 是根號外的比例係數） | **理由**：這個公式的通稱是 **`ANLAB(40)`**，就是因為那個 40 是**外乘的縮放常數**。<br>若在根號內，實際縮放只有 √40 ≈ 6.32，公式該叫 ANLAB(6.32) |
 | **F19** | 教材 同張 | **`Sauderson et al (1946)`** | **`Saunderson`**（少一個 n）<br>—— 就是 **Saunderson 修正**的那位 | 純拼字 |
-| **F20** | 教材<br>「MacAdam Based Formulae」 | 第四項 **`FCM (1978)`** | 前兩項是 `FMC-I`、`FMC-II`，**第四項字母順序不一致**，極可能是 `FMC` 打反 | **`FMC = Friele–MacAdam–Chickering`**（同張圖說原文）。<br>文獻上明確的只有 **FMC-1 (1967) 與 FMC-2 (1971)**，答題寫這兩個 |
+| **F20** | 「MacAdam Based Formulae」 | 第四項 **`FCM (1978)`** | 前兩項是 `FMC-I`、`FMC-II`，**第四項字母順序不一致**，極可能是 `FMC` 打反 | **`FMC = Friele–MacAdam–Chickering`**（同張圖說原文）。<br>文獻上明確的只有 **FMC-1 (1967) 與 FMC-2 (1971)**，答題寫這兩個 |
 
 ### ✅ 反向證據：教材 把 Munsell 五次多項式印**對**了
 > ```
 > 教材（錯）：… + 0.021009 V⁴ …     →  V=10 時 Y = 522.75  ❌
 > 教材（對）：… − 0.021009 V_I⁴ …   →  V=10 時 Y = 102.57  ✅
 > ```
-> **同一份投影片、同一條公式，一張印錯一張印對** —— 這徹底坐實 **F6** 是打字錯誤，
+> **同一份教材、同一條公式，一處印錯一處印對** —— 這徹底坐實 **F6** 是打字錯誤，
 > 而**正確版本就在老師自己的教材裡**（L13 那張），可以放心使用負號版。
 
 **★ 我因此修正了自己的三個「歸因錯誤」**：
 原本 **A5（汞線 456）、A9（Weber 1990）、A20（Stiles & Burch 18）** 我都歸為「聽寫錯誤 / 老師口誤」——
-**逐張核對投影片後發現：老師念得完全正確，是投影片印錯。** 三條均已改寫。
+**與教材原文核對後發現：老師念得完全正確，是教材印錯。** 三條均已改寫。
 
-**★ 反過來，也有「投影片對、老師口述錯」的情況**（不算投影片錯誤，但同樣重要）：
-| # | 主題 | 投影片 | 老師口述 |
+**★ 反過來，也有「教材對、老師口述錯」的情況**（不算教材錯誤，但同樣重要）：
+| # | 主題 | 教材寫的 | 老師口述 |
 |---|---|---|---|
-| **G1** | **半透明樣品的孔徑規則** | **三種情況、兩種正確**（照明面積 ≠ 觀測面積即可） | 說成二分法，還自稱「這張投影片我畫錯了」——**其實投影片是對的** |
+| **G1** | **半透明樣品的孔徑規則** | **三種情況、兩種正確**（照明面積 ≠ 觀測面積即可） | 說成二分法，還自稱「這張我畫錯了」——**其實教材是對的** |
 | **G2** | **視覺路徑與雙眼** | **按「視網膜的哪一側」分**，兩眼同側都送同側皮質 | 說成「左眼→右腦、右眼→左腦」 |
 | **G3** | **照明體 B / C** | **`Illuminant B — Obsolete`、`Illuminant C — Not a standard`** | 說成「B 很少用、C 極少用」 |
 | **G4** | **褐色** | **`Brown colours are dark orange colours`** | 說成「紅 + 黃」 |
@@ -221,18 +223,18 @@
 | **G6** | **重複性的回報方式** | **中位數與最大值的 CIELAB ΔE**（英國標準 NPL-CMC） | **平均值（MCDM）** |
 | **G7** | **燈泡內部** | **低壓惰性氣體（氬/氮/氪/氙）** | 說成「抽真空」 |
 | **G8** | **量測幾何數量** | **舊制 8 種、新制 8 種**（一對一對應） | 說成「舊制六種」（把 a/x 算成一種） |
-| **★ G9** | **亮度 CSF 的形狀** | **教材 圖上明標 `Band-pass shape`**；教材 標題就是 `The Chromatic CSF is low-pass` | 01:01:17 說 **"the luminance CSF is a high pass"**（他 01:00:47 講對過一次） |
-| **★ G10** | **CIEDE2000 五項修正的清單** | **教材 有一張正式的「Five Corrections to CIELAB」，且 `s046–s049` 標明各項出自 Leeds / RIT / Derby** | 課堂口述順序與投影片不同，也沒提到各項的出處實驗室 |
-| **★ G11** | **色序系統的「五種理論基礎」** | **`L11` 投影片是「3 個頂層 + `Principle of perception` 下 3 個子類」的階層結構** | 口述成扁平的五項並列 |
+| **★ G9** | **亮度 CSF 的形狀** | 圖上明標 **`Band-pass shape`**；另一張的標題就是 **`The Chromatic CSF is low-pass`** | 01:01:17 說 **"the luminance CSF is a high pass"**（他 01:00:47 講對過一次） |
+| **★ G10** | **CIEDE2000 五項修正的清單** | **有一張正式的「Five Corrections to CIELAB」，且逐項標明出自 Leeds / RIT / Derby** | 課堂口述順序與教材不同，也沒提到各項的出處實驗室 |
+| **★ G11** | **色序系統的「五種理論基礎」** | **是「3 個頂層 + `Principle of perception` 下 3 個子類」的階層結構** | 口述成扁平的五項並列 |
 
 ---
 
-## H 類：★ 只有抽投影片才拿得到的內容（課堂錄音裡沒有）
+## H 類：★ 教材上有、但課堂沒有展開講的內容
 
-> **這幾張是老師在課後捲動 PDF、或快速略過時被截到的畫面，課堂上沒有講到。**
+> **這幾項寫在教材上，但課堂進行時快速帶過或直接跳過，只聽課的人不會知道。**
 
-| # | 投影片 | 內容 | 為什麼重要 |
+| # | 出處 | 內容 | 為什麼重要 |
 |---|---|---|---|
-| **★★ H1** | 教材<br>「Trials of CIEDE2000」 | ```· Three terms CIEDE2000```<br>```· Melgosa's significant test on the 5 correction terms```<br>```· Sharma's finding on irregularity on hue difference```<br>```· Industrial applications```<br>```   – Paint (successful)```<br>```   – Textile (no significant improvement from CMC)``` | **★★★ CIEDE2000 的官方自我檢討**：<br>① 有人檢定過五項修正是否都統計顯著<br>② 色相差的不規則性是被承認的缺陷<br>③ **紡織業用它相對 CMC「沒有顯著改善」** —— 這才是 CMC 至今仍是紡織 ISO 標準的真正原因 |
-| **H2** | 教材<br>「Liu et al (2012) – Printed Images」 | `CIELAB(1:1) STRESS 31 / R 0.85`　`CIELAB(1.5:1) STRESS 31 / R 0.91`<br>`DE2000(1:1) STRESS 41 / R 0.75`　`DE2000(2.23:1) STRESS 29 / R 0.92` | **① 最佳 K_L 因公式而異**（CIELAB 1.5、CIEDE2000 2.23）<br>**② 未調參數的 CIEDE2000（41）比 CIELAB（31）還差**<br>**③ 老師自己的投影片已改用 STRESS 而非 PF/3** |
-| **H3** | 教材、教材 | 老師捲 PDF 時掃過的 L05/L06 舊投影片（DIN Summary、等能刺激 S_E、色溫三定義、Type B 誤差來源、Holmium Tile 波長位移） | 都是既有內容的重播，可用來交叉核對 L05/L06 的筆記 |
+| **★★ H1** | 「Trials of CIEDE2000」 | ```· Three terms CIEDE2000```<br>```· Melgosa's significant test on the 5 correction terms```<br>```· Sharma's finding on irregularity on hue difference```<br>```· Industrial applications```<br>```   – Paint (successful)```<br>```   – Textile (no significant improvement from CMC)``` | **★★★ CIEDE2000 的官方自我檢討**：<br>① 有人檢定過五項修正是否都統計顯著<br>② 色相差的不規則性是被承認的缺陷<br>③ **紡織業用它相對 CMC「沒有顯著改善」** —— 這才是 CMC 至今仍是紡織 ISO 標準的真正原因 |
+| **H2** | 「Liu et al (2012) – Printed Images」 | `CIELAB(1:1) STRESS 31 / R 0.85`　`CIELAB(1.5:1) STRESS 31 / R 0.91`<br>`DE2000(1:1) STRESS 41 / R 0.75`　`DE2000(2.23:1) STRESS 29 / R 0.92` | **① 最佳 K_L 因公式而異**（CIELAB 1.5、CIEDE2000 2.23）<br>**② 未調參數的 CIEDE2000（41）比 CIELAB（31）還差**<br>**③ 老師自己後來的教材已改用 STRESS 而非 PF/3** |
+| **H3** | L05 / L06 的複習頁 | DIN Summary、等能刺激 S_E、色溫三定義、Type B 誤差來源、Holmium Tile 波長位移 | 都是既有內容的重述，可用來交叉核對 L05 / L06 的筆記 |
