@@ -98,7 +98,7 @@ A = A₀ 時：D = 10 − k·log₁₀(41.7) = 10 − k × 1.620136
 | CAT 的增益係數 | 白點必須映到白點 |
 | 任何「以某物為原點」的量 | 該物的值必須是 0 |
 
-**驗算不出來就標「存疑」，寫進 [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md)，不要猜。**
+**驗算不出來就在原地標「存疑」，不要猜。**
 
 ---
 
@@ -109,7 +109,6 @@ A = A₀ 時：D = 10 − k·log₁₀(41.7) = 10 − k × 1.620136
 | `references/L##_….md` | 正文的說明 |
 | `references/00-differences.md` | 若屬於 A–H 任一類，加一列 |
 | `references/00-formulas.md` | 若動到公式 |
-| `OPEN-QUESTIONS.md` | 若解決了存疑項，移到「已解決」 |
 
 ---
 

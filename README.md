@@ -176,15 +176,13 @@ Skill 的回答風格也照這個走 —— 直接把事情講清楚，不繞路
 | [`AGENTS.md`](AGENTS.md) | **Codex / Cursor / 其他 agent** | 同樣的內容，改成 `AGENTS.md` 格式 |
 | [`references/`](references) | 所有人 | **知識庫本身**（20 篇筆記 + 6 份彙整） |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | 想貢獻的人 | A–H 分類慣例、驗算原則、寫作風格 |
-| [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) | 想幫忙的人 | 5 個查不到確定答案的項目 |
 
 ---
 
 ## 🤝 想幫忙？
 
-筆記裡有幾個地方**查不到確定答案，一律標成「存疑」而不是猜一個寫上去** ——
-全部集中在 [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md)。
-如果你手上有原始文獻能確認任何一項，非常歡迎。
+筆記裡少數幾處標有「**存疑**」—— 那是查不到確定答案、刻意不猜的地方。
+如果你手上有原始文獻能確認，非常歡迎開 issue。
 
 要修正或補充內容，請先看 [`CONTRIBUTING.md`](CONTRIBUTING.md) ——
 裡面說明了 **A–H 八類**的分類慣例，以及一個重要原則：
@@ -370,15 +368,14 @@ responsibility, not the instructor's.** Issues and corrections welcome.
 | [`AGENTS.md`](AGENTS.md) | **Codex / Cursor / other agents** | Same guidance in `AGENTS.md` format |
 | [`references/`](references) | Everyone | **The knowledge base** (20 lecture notes + 6 reference files) |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contributors | Classification convention (A–H), verification principles, style |
-| [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) | Contributors | 5 items that could not be confirmed |
 
 ---
 
 ## 🤝 Contributing
 
 A handful of details could not be confirmed against primary sources. Rather than
-guess, they were marked as uncertain and collected in
-[`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md). If you can settle any of them, please do.
+guess, they are marked as uncertain in place. If you can settle any of them,
+please open an issue.
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the classification convention (categories
 A–H) and one important rule: **both "what was taught" and "what the standard says"

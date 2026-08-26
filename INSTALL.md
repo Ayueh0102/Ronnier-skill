@@ -478,4 +478,3 @@ irm https://raw.githubusercontent.com/Ayueh0102/Ronnier-skill/main/install.ps1 |
 |---|---|
 | [`README.md`](README.md) | 專案介紹、內容導覽 |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | 想修正或補充內容 |
-| [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) | 還沒查到答案的項目 |
