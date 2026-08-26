@@ -42,7 +42,7 @@
 
 > **「任何色差公式——包括 CIELAB——都只能在這一組嚴格的條件下使用。」**
 
-### 2-0 ★★★ 參數效應的完整清單（投影片 `L14_s004_006m49s.png`「Parametric Effect」逐字，**十項**）
+### 2-0 ★★★ 參數效應的完整清單（教材「Parametric Effect」原文，**十項**）
 ```
 · Aperture vs surface modes
 · Perceptibility vs acceptability types
@@ -73,7 +73,7 @@
 > 老師講的 `K_L = 2`（影像，§8-4）、`CMC(2:1)`（紡織可接受性）都是這張表第 2、3、4 項的實例。
 
 ### 2-1 CIEDE2000 的參考條件（Reference Conditions）★ 必背
-**投影片 `L14_s005_009m06s.png`「Parametric Effect — Reference Viewing Condition」逐字（九列）：**
+**教材「Parametric Effect — Reference Viewing Condition」原文（九列）：**
 ```
 Illuminant        ★ D65 Simulator
 Illuminance         1000 lux
@@ -178,7 +178,7 @@ Magnitude         ★ <5 ΔE*ab
 ```
 > **「這能幫助大家做色彩排序（colour sorting）。」**
 
-### ★★★ 完整式（投影片 `L14_s009_016m33s.png`「CIEDE2000 3-terms Formula」逐字）
+### ★★★ 完整式（教材「CIEDE2000 3-terms Formula」原文）
 **原式（四項，含交叉項）**
 ```
 ΔE = √[ (ΔL'/(k_L S_L))² + (ΔC'/(k_C S_C))² + (ΔH'/(k_H S_H))²
@@ -238,7 +238,7 @@ CIEDE2000 的規格自己寫著「**ΔE < 5**」→ 業界就問：
 
 老師（與 Wang、Cui 博士）做了實驗來回答。
 
-### 5-2 ★★★ 實驗設計（投影片 `L14_s010 / s012`「Leeds experiment — Wang, Cui and Luo」逐字）
+### 5-2 ★★★ 實驗設計（教材「Leeds experiment — Wang, Cui and Luo」原文）
 ```
 Data       No.     Max.      Min.     Median    Mean
 Large      60     107.20     21.93     42.10     50.01
@@ -350,7 +350,7 @@ Scaling method:
 | 大小 | **相差約 10 倍** | **各區大小接近** |
 
 ### 7-3 三個版本
-**投影片 `L14_s017 / s019`「CIECAM02 Uniform Colour Space」逐字：**
+**教材「CIECAM02 Uniform Colour Space」原文：**
 ```
 · Large and small colour difference data have different characters
    – ★ Lightness difference is more noticeable than chromatic difference
@@ -408,7 +408,7 @@ Scaling method:
 **背景**：老師是 **CIE TC 8-02（影像色差評估）** 的主席。
 > **「以前我們評色塊，現在要評影像。」**
 
-**投影片 `L14_s020_032m07s.png`「Colour difference evaluation for images」逐字：**
+**教材「Colour difference evaluation for images」原文：**
 ```
 · ★ CIE TC8-02  Colour difference evaluation for images
 · Add-on spatial filters to conventional formulae
@@ -431,7 +431,7 @@ Scaling method:
 > **老師（TC 8-02 主席）在課堂上主推 ①（S-CIELAB）與 ②（CAM02-UCS + K_L=2），
 > 因為這兩條路才有機會寫進標準。** ③ 只列在投影片上、沒有展開。
 
-### 8-0 ★★ TC 8-02 用的六個資料集（投影片 `L14_s022_034m39s.png`「Data Sets」逐字）
+### 8-0 ★★ TC 8-02 用的六個資料集（教材「Data Sets」原文）
 ```
 · CRT
    1. Stokes - RIT (1991)
@@ -458,7 +458,7 @@ Scaling method:
 > **★ 六個資料集裡有三個出自 Derby（Song、Uroz、Sano）** —— 都是老師自己實驗室的學生做的。
 
 ### 8-1 標準測試影像的選擇
-**投影片 `L14_s023 / s030`「Sano Data - Test Images」逐字：**
+**教材「Sano Data - Test Images」原文：**
 ```
 · Standardised images
    – ISO/TC130   SHIPP
@@ -486,7 +486,7 @@ Scaling method:
 > **★ 選測試影像的三個原則：**
 > **① 包含重要的記憶色 ② 高動態範圍 ③ 飽和色**
 
-### 8-2 ★★★ 影像「劣化」的四種變換（投影片 `L14_s024 / s028`「Transform function (Lightness, Chroma and Hue)」逐字）
+### 8-2 ★★★ 影像「劣化」的四種變換（教材「Transform function (Lightness, Chroma and Hue)」原文）
 ```
 Function  | Multiplicative1   | Multiplicative2      | Power              | Additive Offset
 ----------|-------------------|----------------------|--------------------|------------------
@@ -547,7 +547,7 @@ K_L = 2 , K_C = 1 , K_H = 1     →  即 ΔE₀₀(2:1:1)
 - **ΔE₀₀(2:1:1)** 表現最好
 - **ΔE\*ab(2:1:1)** 表現也相當接近
 
-### ★★★★ 硬數據：投影片 `L14_s032 / s036`「Colour difference formulae comparison」
+### ★★★★ 硬數據：教材「Colour difference formulae comparison」
 **評估指標：`Coefficient of variation (CV) = 100 × stdv / mean`，★ 越小越好**
 ```
            ΔE*ab  ΔE00     ΔE00     ΔEcmc    ΔEcmc    ΔE*94    ΔE*94
@@ -600,7 +600,7 @@ LM 這一列：  57  45  27  63  54  58  42     ← 每個公式的最大值都�
 > **公式離開它的訓練條件就會退化，這是參數效應的本質。**
 > **不要背「CIEDE2000 永遠最好」，要背「CIEDE2000 在其參考條件下最好；離開條件必須調參數因子」。**
 
-### ★★ 這個結論是怎麼被驗證的：TC 8-02 的國際循環比對（投影片 `L14_s038_048m32s.png`）
+### ★★ 這個結論是怎麼被驗證的：TC 8-02 的國際循環比對
 ```
 TC 8-02 Ring test
 
@@ -622,7 +622,7 @@ Interval   May/02     March/03       July/03     Sept./03
 > （日本 CII、西班牙 HP Barcelona、日本 FujiFilm、美國 HP Boise）。
 > **這就是一個 CIE 技術委員會真正在做的事** —— 不是提出公式，是**證明公式在別人手上也成立**。
 
-> ### ⚠️★ 但 Ring test 的結果並不完美（投影片 `L14_s040_048m55s.png`）
+> ### ⚠️★ 但 Ring test 的結果並不完美
 > **「Comparing Thresholds Between Sano and HP-Barcelona Data」的迴歸線：**
 > ```
 > y = 0.7663 x        R² = 0.6818
@@ -635,11 +635,11 @@ Interval   May/02     March/03       July/03     Sept./03
 > 呼應老師在 L08 講的**「觀察者差異的四個原因」**與 L05 的不確定度觀念 ——
 > **視覺實驗的再現性，遠低於儀器量測的再現性。**
 >
-> **★ 另一張 `L14_s039` 的圖說寫著：`CIEDE2000 slightly better than CIELAB.`**
+> **★ 另一張 教材 的圖說寫著：`CIEDE2000 slightly better than CIELAB.`**
 > **「slightly（略為）」這個字用得很誠實** —— 在 Sano 資料上，
 > CIEDE2000 只是「略優於」CIELAB，不是壓倒性勝出。**真正拉開差距的是 K_L=2。**
 
-### ★★★ 十年後的獨立確認：Liu et al. (2012) – Printed Images（投影片 `L14_s042_050m37s.png`）
+### ★★★ 十年後的獨立確認：Liu et al. (2012) – Printed Images
 ```
               CIELAB (1:1)   CIELAB (1.5:1)        DE2000 (1:1)   DE2000 (2.23:1)
    STRESS         31              31                    41             29
@@ -668,7 +668,7 @@ Interval   May/02     March/03       July/03     Sept./03
 > —— **直接印證本節出入第 2 條「PF/3 已被 STRESS 取代」。**
 > **寫論文請用 STRESS**（CIE 頒布於 2007，Garcia, Huertas, Melgosa & Cui）。
 
-### ★ 影像色差的實用閾值（投影片 `L14_s037_047m32s.png`）
+### ★ 影像色差的實用閾值
 「Comparing ΔE\*ab thresholds between different data sets」的長條圖顯示：
 ```
 跨 Stokes / Song / Sano / HP-Barcelona 四個資料集，
@@ -690,7 +690,7 @@ Interval   May/02     March/03       July/03     Sept./03
 > **「銳利的影像與模糊的影像，色差判斷完全不同。
 > 解析度、清晰度會大幅影響色差的判斷。」**
 
-**Blurring 模糊的定義**（投影片 `L14_s043_052m12s.png`「What is Blurring?」逐字）：
+**Blurring 模糊的定義**（教材「What is Blurring?」原文）：
 ```
 Blurring is the selective reduction of contrast in the ★ HIGH SPATIAL FREQUENCIES
 ```
@@ -710,7 +710,7 @@ Michelson Contrast = (L_max − L_min) / (L_max + L_min)
 ```
 單位：cycles per degree（CPD，每度週期數）
 ```
-**投影片 `L14_s044_053m52s.png`「Defining Contrast and Spatial Frequency」逐字（★ 完整的計算範例）：**
+**教材「Defining Contrast and Spatial Frequency」原文（★ 完整的計算範例）：**
 ```
 8 cycles  per 50cm
 400cm  （觀看距離）
@@ -745,7 +745,7 @@ C = (L_max − L_min)/(L_max + L_min)      ← Michelson Contrast
 > **→ 這就是「站遠一點就看不出網點」的數學**：距離拉遠 → SF 升高 → 超過 CSF 的截止頻率（≈60 CPD）→ 看不見。
 
 ### 9-4 ★★ CSF（Contrast Sensitivity Function 對比敏感度函數）
-**投影片 `L14_s046 / s048 / s050 / s052`「How to Measure Contrast Sensitivity?」逐字：**
+**教材「How to Measure Contrast Sensitivity?」原文：**
 ```
 Find the contrast at threshold of detection
    e.g.  L_min = 48;  L_max = 52
@@ -767,7 +767,7 @@ frequency we have the CSF.
 | **亮度（luminance）** | **帶通（band-pass）** | **★ 恰好 4 CPD**（見下方推導） | `s053` 圖上直接標註 **`Band-pass shape`** |
 | **色度（chromatic：紅-綠、黃-藍）** | **低通（low-pass）** | **沒有峰值**，從 DC 開始就是最高 | `s054 / s056` **標題就是 `The Chromatic CSF is low-pass`**，資料出自 **Mullen, 1985** |
 
-> **★★ 這兩張投影片直接解決了轉錄裡的矛盾（本節出入第 1 條 / A8）**：
+> **★★ 這兩張教材直接解決了我筆記裡的矛盾（本節出入第 1 條 / A8）**：
 > 老師在課堂上有一次口誤說亮度 CSF 是「high-pass」，
 > **但投影片白紙黑字寫 `Band-pass shape`** —— **投影片是對的，那是純口誤。**
 >
@@ -780,7 +780,7 @@ frequency we have the CSF.
 > **★ 這解釋了一個關鍵現象：人眼對「亮度」的空間細節遠比對「顏色」的空間細節敏感。**
 > （這正是 JPEG、影像壓縮採用 **色度次取樣 4:2:0** 的生理基礎——雖然老師沒明說。）
 
-### 9-4b ★★★★ CSF 的實際公式與全部係數（投影片 `L14_s058_063m11s.png`「Calculation of Spatial Filters」逐字）
+### 9-4b ★★★★ CSF 的實際公式與全部係數（教材「Calculation of Spatial Filters」原文）
 **這一張是可以直接寫成程式的東西。**
 
 **亮度通道**
@@ -836,7 +836,7 @@ CSF_chrom(f) = a₁ · e^(b₁ · f^c₁)  +  a₂ · e^(b₂ · f^c₂)
 > **但要精確實作的話，這個係數要回去查原始文獻。**
 
 ### 9-5 S-CIELAB（Wandell, Stanford）★
-**投影片 `L14_s055 / s057`「Spatial Based Colour Difference Formula — S-CIELAB Model」的方塊圖：**
+**教材「Spatial Based Colour Difference Formula — S-CIELAB Model」的方塊圖：**
 ```
 Original Image ─▶ Color Separation ─▶ Spatial Filtering ─▶ Standard CIELAB ─▶ S-CIELAB
                        ↓                     ↓              Calculation        representation
@@ -878,7 +878,7 @@ XYZ
 > **「先讓影像通過一個模擬人眼的模糊濾波器，再去算色差」**
 > —— 因為**人眼看不見的高頻差異，不該被算進色差裡**。
 
-> **濾波器在 3D 上看**（投影片 `L14_s060_065m11s.png`「Filters' 3D views」，三張曲面圖）：
+> **濾波器在 3D 上看**（教材「Filters' 3D views」，三張曲面圖）：
 > ```
 > a  Luminance channel     ← 最窄最尖（保留最多高頻細節）
 > b  Red-Green channel
@@ -905,7 +905,7 @@ XYZ
 **改用 S-CIELAB 之後**：其中一張變成 **ΔE = 7.1**，另一張較小 → **成功區分開來**。
 > **「這就是空間濾波器的威力。」**
 
-### ★★★★ 精確數字（投影片 `L14_s061` 與 `L14_s062 / s065` 逐字對照）
+### ★★★★ 精確數字（教材原文對照）
 ```
 投影片 s061「Image Difference」          ← 傳統 CIELAB，逐像素平均
     ΔE*ab = 5.8      Original      ΔE*ab = 5.8
@@ -941,7 +941,7 @@ XYZ
 > 比任何抽象論證都好用 —— **考試或報告裡直接引 `5.8 = 5.8 → 4.8 vs 7.1` 這組數字。**
 
 ### 9-7 注意力與感興趣區域（01:10:06–01:14:08）
-**實驗一：`Leeds Experiment – Wang and Luo`（投影片 `L14_s066 / s068`）**
+**實驗一：`Leeds Experiment – Wang and Luo`**
 - 介面：**左右兩張影像，下方一對灰色塊 + 一條滑桿**
 - 讓觀察者**調整那對灰色塊的差異**，直到「灰色塊的差異 ≈ 兩張影像的差異」
   → **把影像差異換算成 ΔE**
@@ -949,13 +949,13 @@ XYZ
   > **人很難直接說「這兩張圖差 4.8」，但很會說「這兩塊灰跟那兩張圖差不多」。**
   > **→ 用一個「可量測的替代刺激」去承接一個「難以量化的判斷」。**
 - 同時請他們**標出「哪個區域差最多」** → 例如某張圖的**氣球佔 68%**
-- **投影片 `L14_s067 / s069`「Filtering」展示兩張輸出圖**：
+- **教材「Filtering」展示兩張輸出圖**：
   ```
   Salient map（顯著圖）      ← 哪些區域吸引注意
   Weighting effects（加權效果）← 據此對 ΔE 加權後的結果
   ```
 
-**實驗二：`NYUST Experiment – Guan and Tsai`（投影片 `L14_s070_071m44s.png`）**
+**實驗二：`NYUST Experiment – Guan and Tsai`**
 > **★ NYUST = 國立雲林科技大學（National Yunlin University of Science and Technology）
 > —— 這是一個台灣的合作研究，對台灣的學生特別值得知道。**
 ```
@@ -982,9 +982,9 @@ XYZ
 
 ---
 
-## ⚠️ 轉錄勘誤
+## ⚠️ 名詞誤植對照
 
-| 轉錄文字 | 正確 |
+| 常見誤植 | 正確 |
 |---|---|
 | Magosa / Mercosa | **Melgosa**（西班牙 Granada 大學團隊） |
 | Chris Pinin / crispening | **crispening effect** |
@@ -1014,8 +1014,8 @@ XYZ
 ### 1. 亮度 CSF 是「帶通」不是「高通」⚠️（★ 2026-08-26 由投影片確認為純口誤，**投影片是對的**）
 - 老師在 01:01:17 說 **"chromatic CSF is a low pass, and the luminance CSF is a high pass"**。
 - **正確是 band-pass（帶通）** —— 他在前面 01:00:47 講對了（"this is what we call the bandpass shape"），後面口誤。
-- **★ 投影片 `L14_s053_060m42s.png` 的圖上直接標註 `Band-pass shape`**，
-  且 `L14_s054 / s056` 的標題就是 **`The Chromatic CSF is low-pass`**（資料出自 **Mullen, 1985**）。
+- **★ 教材 的圖上直接標註 `Band-pass shape`**，
+  且 教材 的標題就是 **`The Chromatic CSF is low-pass`**（資料出自 **Mullen, 1985**）。
   **→ 這是 G 類（投影片正確、老師口誤），不是 A 類的知識錯誤。**
 - **★ 而且可以用投影片自己的公式證明**（見正文 §9-4b）：
   ```
@@ -1038,8 +1038,8 @@ XYZ
 - **CIE 現在建議用 STRESS（STandardized REsidual Sum of Squares，García, Huertas, Melgosa & Cui, 2007）**，因為它有明確的統計意義（可做 **F 檢定**比較兩個公式是否顯著不同）。
 - **★ 投影片本身就記錄了這個世代交替**：
   ```
-  L14_s032 / s036（2002 年的研究）→ 用 ★ CV  =  100 × stdv/mean
-  L14_s042      （Liu et al. 2012）→ 用 ★ STRESS
+  教材 / s036（2002 年的研究）→ 用 ★ CV  =  100 × stdv/mean
+  教材      （Liu et al. 2012）→ 用 ★ STRESS
   ```
   **同一份投影片裡，早期研究用 CV、十年後的研究用 STRESS。**
 - **★ 順帶一提**：STRESS 的作者群裡有 **Melgosa** 與 **Cui** ——

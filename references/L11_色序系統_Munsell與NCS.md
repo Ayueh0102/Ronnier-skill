@@ -54,7 +54,7 @@
 
 ## 3. 五種理論基礎（00:16:55–00:19:28）★ 老師說「非常可能考」
 
-### ★★ 投影片原文（`slides/L11/L11_s005_017m19s.png`「Bases of colour order」逐字）
+### ★★ 投影片原文（教材「Bases of colour order」逐字）
 ```
 · Additive mixture of stimuli (e.g. ★ Ostwald)
 · Subtractive colorant mixtures (★ Tintometer)
@@ -173,7 +173,7 @@ R（紅）、Y（黃）、G（綠）、B（藍）、P（紫）
 > **"Equality of visual spacing between adjacent notations in each of the system's three attributes."**
 > **「在三個屬性中，各自的相鄰標記之間，視覺間隔相等。」**
 
-### ★★★ 投影片「Munsell Uniformity」的四條（`L11_s022_040m18s.png` 逐字）
+### ★★★ 投影片「Munsell Uniformity」的四條（教材 逐字）
 ```
 · Equal visual perception of spacing between adjacent notations
   in each of the system's three attributes.
@@ -188,9 +188,9 @@ R（紅）、Y（黃）、G（綠）、B（藍）、P（紫）
 >
 > **兩條換算關係**：
 > - **`1ΔV = 2ΔC`** —— **1 個 Value 步 = 2 個 Chroma 步** ✅ 我的筆記正確
-> - **`1ΔH = 2ΔC/15`** —— 這正是逐字稿裡那句含糊的「one hue step equal to two chroma step divided by 15」，**投影片證明老師念得沒錯**
+> - **`1ΔH = 2ΔC/15`** —— 這正是課堂上那句含糊的「one hue step equal to two chroma step divided by 15」，**投影片證明老師念得沒錯**
 
-### ★ Munsell 最初的構想是「球體」不是「樹」（投影片 `L11_s021_039m57s.png`）
+### ★ Munsell 最初的構想是「球體」不是「樹」
 ```
 · Munsell originally conceived his colour solid as a ★ SPHERE.
 · Enriched evenly by hues at ★ Chroma 5.
@@ -205,7 +205,7 @@ R（紅）、Y（黃）、G（綠）、B（藍）、P（紫）
 > —— 這解釋了為什麼 Munsell 色立體是歪的。
 
 ### 7-5 發展史 ★
-**投影片 `L11_s020_037m06s.png`「The History of Munsell」逐字**（✅ 六個年份與我的重建**全中**）：
+**教材「The History of Munsell」原文**（✅ 六個年份與我的重建**全中**）：
 | 年份 | 事件（投影片原文） |
 |---|---|
 | **1905** | **'A Color Notation'** |
@@ -215,7 +215,7 @@ R（紅）、Y（黃）、G（綠）、B（藍）、P（紫）
 | **1930** | **'Spacing of Munsell Colors subcommittee of the OSA'** ← 委員會成立 |
 | **1943** | **★ 'Munsell Renotation System'** —— 發表於 JOSA |
 
-### ★★ Munsell 自己對三個屬性的定義（投影片 `L11_s017 / s018 / s019`，引自《A Color Notation》）
+### ★★ Munsell 自己對三個屬性的定義（教材，引自《A Color Notation》）
 
 **Hue 色相**：
 > *"Specifically and technically, distinctive equality of colouring in an objective or a subjective sense,
@@ -264,7 +264,7 @@ R（紅）、Y（黃）、G（綠）、B（藍）、P（紫）
 - **Munsell 的色度規範是在「Illuminant C + 2° 觀察者」下定義的** ★
   > **老師的評語：「這可能是我們今天還保留 Illuminant C 的唯一理由。」**
 - 用 **Hardy 型分光光度計**量測，**積分球幾何、除鏡面（SPE）**
-### ★★★ V → Y 的五次多項式（投影片 `L11_s023_041m50s.png`）—— ⚠️ 投影片有一個正負號印錯
+### ★★★ V → Y 的五次多項式—— ⚠️ 投影片有一個正負號印錯
 
 **投影片印的**：
 ```
@@ -318,7 +318,7 @@ Y = 1.2219V − 0.23111V² + 0.23951V³ ★− 0.021009V⁴ + 0.0008404V⁵
 > **為什麼這樣可行？因為這六個就是人類視覺系統裡的「唯一色（unitary colours）」。**
 
 ### 8-2 歷史（00:51:12–00:53:48）
-**投影片 `L11_s032_051m22s.png`「NCS-History」逐字**（★ 修正了我兩處錯誤）：
+**教材「NCS-History」原文**（★ 修正了我兩處錯誤）：
 | 年份 | 事件（投影片原文） |
 |---|---|
 | **1611** | **Forsius** publishes basic concepts in physics |
@@ -391,7 +391,7 @@ S  1050 - Y90R
 - **色數更多**
 - **分三個品質等級**
 
-### ★★ Edition 2 的精確容差表（投影片 `L11_s043_066m09s.png` 逐字）
+### ★★ Edition 2 的精確容差表（教材 逐字）
 ```
 Quality      ΔE(f₁)          ΔE(f₂)
 Standard                     < 0.5   100%
@@ -410,13 +410,13 @@ QL2          < 0.6   70%     < 1.0    90%     < 1.5  100%
 > **★ 注意規格的寫法**：不是單一門檻，而是**「百分位 + 門檻」的組合**
 > ——這才是真實的品管規格寫法（呼應 L14「平均會掩蓋災難」的教訓）。
 
-**★ 各等級對應的實體產品（投影片 `L11_s044 / s045`）**：
+**★ 各等級對應的實體產品**：
 ```
 Standard        – NCS Atlas
 Quality Level 1 – NCS Box, NCS Block, NCS Album, A4 and A6 Sheets
 Quality Level 2 – NCS Index, NCS Selection, NCS Chips
 ```
-**Edition 2 的新標記範例**：`S2010-Y10R`（投影片 `L11_s041`）
+**Edition 2 的新標記範例**：`S2010-Y10R`
   > **老師的話：「要越準的色彩配對，就要付越多錢。」**
   > **Edition 1 已停售**，現在只買得到 Edition 2 的三種等級。
 
@@ -426,7 +426,7 @@ Quality Level 2 – NCS Index, NCS Selection, NCS Chips
 - **瑞典、挪威、西班牙的國家標準**（★ 投影片寫的是 **Portugal**，見文末勘誤第 2 條）
 - **在歐洲被設計師廣泛使用，現在擴散到全世界**
 
-### ★ NCS - Summary（投影片 `L11_s046_067m41s.png` 逐字，五點）
+### ★ NCS - Summary（教材 逐字，五點）
 ```
 · Physical samples available since 1979
 · Standard in Sweden, Noway and Portugal; extensively used in Europe.
@@ -440,7 +440,7 @@ Quality Level 2 – NCS Index, NCS Selection, NCS Chips
 > **原因**：Munsell 的軸是「知覺等距」，可以逐軸對應物理量；
 > NCS 的軸是「與六個基本色的相似度」，本質上是**心理判斷的比例**，沒有對應的物理量。
 > **這是色序系統與色度系統的根本分野**，很適合當申論題。
-### ★★★ NCS → CIE 的實際做法（投影片 `L11_s040_063m53s.png` 逐字）
+### ★★★ NCS → CIE 的實際做法（教材 逐字）
 ```
 · Atlas samples were measured (★ SS 01 91 03)
 · Interpolation used to produce ★ 16,000 aim points (SS 01 91 01)
@@ -457,7 +457,7 @@ Quality Level 2 – NCS Index, NCS Selection, NCS Chips
 > **這條式子把 NCS 的「黑度 s」直接接到 CIE 的「亮度因數 Y」**，是兩套系統之間唯一的解析橋樑
 > ——**彩色部分仍然只能靠 16,000 個內插目標點查表。**
 
-### ★★ NCS 的完整方程式組（投影片 `L11_s037_058m38s.png`）
+### ★★ NCS 的完整方程式組
 ```
 c = r + y + g + b                    彩度是四個色相分量的總和
 
@@ -469,7 +469,7 @@ c = r + y + g + b                    彩度是四個色相分量的總和
 > **✅ 我筆記的 `S + W + C = 100` 與 `Φ = 100 × (R/C)` 都正確**，
 > 投影片多給的是 **`c = r + y + g + b`** 這一層（彩度由四個色相分量組成）。
 
-### ★★ NCS 標記的完整拆解（投影片 `L11_s038_060m05s.png` 的範例）
+### ★★ NCS 標記的完整拆解（教材 的範例）
 ```
 Example
   10 % blackness (S)        →  s = 10
@@ -485,7 +485,7 @@ Example
 ```
 > ✅ **與我筆記的範例完全一致**（s=10, w=40, c=50, Y90R, Nuance=1050）。
 
-### ★★ NCS Atlas 的規格（投影片 `L11_s039_061m51s.png` 逐字）
+### ★★ NCS Atlas 的規格（教材 逐字）
 ```
 · Based on over ★ 60,000 observations
 · ★ 40 hue steps and 10 steps in blackness and chromaticness
@@ -493,15 +493,15 @@ Example
 · Nominal tolerance of ★ ±2 NCS units for primary standards
 · ★ Most boundary colours could not be produced within the tolerance!
 ```
-> ✅ **五項全部與我的筆記一致**，**「1412」也確認了我把逐字稿「14,012」更正為「1,412」是對的。**
+> ✅ **五項全部與我的筆記一致**，**「1412」也確認了我把當初記成的「14,012」更正為「1,412」是對的。**
 
 - **與 CIE 無簡單關係**——彩色部分需要內插（16,000 個目標點）
 
 ---
 
-## ⚠️ 轉錄勘誤
+## ⚠️ 名詞誤植對照
 
-| 轉錄文字 | 正確 |
+| 常見誤植 | 正確 |
 |---|---|
 | Mansell / Monseil / Montserrat / Monceau | **Munsell** |
 | Osterwood / Austin Wood / Osterwee | **Ostwald** |
@@ -528,7 +528,7 @@ Example
 
 ### 2. NCS 是哪些國家的國家標準？（★ 已由投影片翻案——**不是老師口誤**）
 - 老師說「瑞典、挪威、葡萄牙」。
-- **投影片 `L11_s046_067m41s.png`「NCS - Summary」原文就寫 `Standard in Sweden, Noway and Portugal`**
+- **教材「NCS - Summary」原文就寫 `Standard in Sweden, Noway and Portugal`**
   →（順帶一提，`Noway` 是投影片的錯字，應為 `Norway`。）
 - **所以老師是照著投影片唸的，不是口誤。** 這一項要從「A 類口誤」改列為 **F 類（投影片本身的錯）**。
 - **但內容仍然存疑**：一般文獻與 NCS Colour AB 官方資料列的是

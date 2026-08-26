@@ -80,7 +80,7 @@
 
 ## E2. ★★ CAM16 的作者名單要更正
 
-**課程筆記原本寫的**（由逐字稿推測）：Li, Li, Wang, Zu, **Luo, Hunt, Pointer, Fairchild**
+**課程筆記原本寫的**（早期版本誤記）：Li, Li, Wang, Zu, **Luo, Hunt, Pointer, Fairchild**
 
 **正確的作者名單**：
 > **Li C., Li Z., Wang Z., Xu Y., Luo M.R., Cui G., Melgosa M., Brill M.H., Pointer M. (2017)**
@@ -372,7 +372,7 @@ TCS08  10P  6/8   淡紅紫
 - [ ] **CIE 015:2018 Colorimetry 4th ed.** 與課程內容（多半基於 CIE 15:2004）的差異
 - [ ] **Helmholtz–Kohlrausch 效應**的量化模型（Hellwig & Fairchild 2022 的版本）
 - [ ] **CAM20u** 的完整定義（非相關色）
-- [ ] 2026-04-08 Optica webinar 的內容（若事後有錄影/講稿）
+- [ ] 2026-04-08 Optica webinar 的內容（若事後有公開紀錄）
 
 ---
 

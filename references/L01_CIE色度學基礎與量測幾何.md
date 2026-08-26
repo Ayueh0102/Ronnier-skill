@@ -18,7 +18,7 @@
 > 老師原話：「色度學是**應用科學**（applied science），有人爭論它算不算 science，但它是所有彩色材料應用的根本。」
 
 - 應用場域：跨媒體色彩複製（cross-media color reproduction，螢幕 vs 印刷）、表面色產業（紡織/塗料/塑膠/印刷/包裝/食品/陶瓷/化妝品）、液體色、照明（LED）、彩色影像（手機成像是重中之重）。
-### ★ 官方 11 個 Lecture 清單與時程（投影片 `L01_s005_004m37s.png` 逐字）
+### ★ 官方 11 個 Lecture 清單與時程（教材 逐字）
 
 | # | Lecture | 時間 |
 |---|---|---|
@@ -41,7 +41,7 @@
 > 同理投影片上 **10 = Colour rendering、11 = Adaptation**，實際授課是**先 Adaptation 後 Colour rendering**（本筆記 L18 → L19）。
 > **答題若問「Lecture 幾是什麼」，用投影片的編號。**
 
-### ★ 評分方式（投影片 `L01_s006_005m37s.png`）
+### ★ 評分方式
 ```
 · Attendance                              [20 Marks]   出席
 · Final written examination (Essay Questions) [80 Marks]  期末筆試（申論題）
@@ -49,10 +49,10 @@
     Classroom: TR-516, TR-517
 ```
 
-### ★ 指定參考書（投影片 `L01_s007_005m40s.png` 完整書單）
+### ★ 指定參考書（教材 完整書單）
 1. **《Measuring Colour》, 3rd Edt., Robert Hunt**, Fountain Express, Newpro UK Ltd., **1998**
 2. **《Billmeyer and Saltzman's Principles of Colour Technology》, Roy Berns, 3rd Edition**, John Wiley & Sons, New York, **2000**
-3. **《Colorimetry: Fundamentals and Applications》, Noboru Ohta and Alan Robertson**, John Wiley & Sons, New York, **2006** ← 逐字稿聽不清的那本，確認就是這本
+3. **《Colorimetry: Fundamentals and Applications》, Noboru Ohta and Alan Robertson**, John Wiley & Sons, New York, **2006** ← 課堂上提到但沒聽清的那本，確認就是這本
 4. **《Colorimetry – Understanding the CIE system》, Edt. by János Schanda**, John Wiley & Sons, New York, **2007**
 5. **中文教科書：《色彩工程》（Color Engineering），Ohta 著、陳鴻興 譯，2007**
 
@@ -94,7 +94,7 @@ D1 視覺與色彩｜D2 光與輻射的物理量測（metrology）｜D3 室內�
 **標準照明體家族**
 - **1931 年**：A（鎢絲，黃紅成分陡升）、B（正午日光）、C（平均日光）
 - **1964 年**：**D 系列**（D50 / D55 / D65 / D75），全部在 **560 nm 歸一化**
-- 現況（★ 投影片 `L01_s015` 右欄逐字，**比老師口述更精確**）：
+- 現況（★ 教材 右欄逐字，**比老師口述更精確**）：
   ```
   Colour Temperature (K)
     · Distribution Temp.
@@ -127,7 +127,7 @@ D1 視覺與色彩｜D2 光與輻射的物理量測（metrology）｜D3 室內�
   - **FL2 = CWF cool white fluorescent**（辦公室常用，現逐步淘汰）
 - 老師的重點提醒：**FL7 的 SPD 跟 D65 長得完全不一樣，但顏色（色度）被調到一樣**，所以叫 simulator——這正是後面 metamerism（同色異譜）的伏筆。
 - 賣場為什麼在意演色性：燈要夠亮客人才進門，但開 12 小時很耗電；**最糟的情況是「店裡看很喜歡、買回家在日光下顏色變了」**。
-### ★ CIE 15:2004「Other Illuminants」完整分類（投影片 `L01_s023_039m03s.png` 逐字）
+### ★ CIE 15:2004「Other Illuminants」完整分類（教材 逐字）
 
 ```
 Fluorescent Lamps
@@ -158,7 +158,7 @@ High Pressure: HP1 to HP5
 
 ## 5. CIE 量測幾何（00:41:16–00:50:02）★ 高頻考點
 
-### ★★ 新舊制對照（2026-08-26 由投影片 `slides/L01/L01_s028_047m32s.png`「New Specification」逐字抄錄）
+### ★★ 新舊制對照（2026-08-26 由教材「New Specification」原文抄錄）
 
 > **⚠️ 重要更正：舊制不是 6 種，也是 8 種。新舊是「一對一對應」。**
 
@@ -182,7 +182,7 @@ High Pressure: HP1 to HP5
 > 他是把 a/x 兩種變體算成一種。**但他自己的投影片列的是 8 對 8。考題以投影片為準。**
 
 **讀法口訣（老師教的）**：**分號「;」前面 = 照明（光怎麼打進去）；分號後面 = 接收（從哪個角度收）**。
-### ★ 符號的正式定義（投影片 `slides/L04/L04_s004_002m31s.png`「Symbols」註腳逐字）
+### ★ 符號的正式定義（教材「Symbols」註腳逐字）
 ```
 45°    a : annular            （環形／圓周照明）
        x : azimuthal angle    （★ 方位角）
@@ -224,9 +224,9 @@ Diffuse i : included          （含鏡面）
 
 ---
 
-## ⚠️ 轉錄勘誤（Whisper 誤植，對照原音）
+## ⚠️ 名詞誤植對照
 
-| 轉錄文字 | 正確 |
+| 常見誤植 | 正確 |
 |---|---|
 | chart show / charter | chat（線上聊天室） |
 | the prison | the **prism**（稜鏡） |

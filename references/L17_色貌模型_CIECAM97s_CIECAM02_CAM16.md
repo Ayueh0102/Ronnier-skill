@@ -6,7 +6,7 @@
 
 ## 1. 色貌模型的發展史（00:00–00:02:00）
 
-**★★★ 投影片 `L17_s001_000m00s.png`（＝`L16_s025`）「3. Colour Appearance Model (CAM)」逐字**
+**★★★ 教材（＝教材）「3. Colour Appearance Model (CAM)」逐字**
 ```
 - Hunt 1994 and Hunt 1996 ★ (Hunt & Luo)
 - Nayatani 1997 (Osaka, Japan)
@@ -71,7 +71,7 @@
 > **「一個能夠預測『在不同觀看條件下之色貌』的色視覺模型。」**
 > A model of colour vision capable of predicting colour appearance under different viewing conditions.
 
-**★ CIE TC 1-34 的最低要求（必考）—— 投影片 `L17_s003_002m06s.png` 逐字**
+**★ CIE TC 1-34 的最低要求（必考）—— 教材 逐字**
 ```
 · A model of colour vision capable of predicting colour appearance
   under different viewing conditions.
@@ -105,7 +105,7 @@
 
 ## 4. CIE 的推進時間軸（00:05:29–00:08:28）
 
-**投影片 `L17_s004_005m45s.png`「Development of Colour Appearance Models」逐字（五個里程碑）：**
+**教材「Development of Colour Appearance Models」原文（五個里程碑）：**
 ```
 - CIE TC1-34  Testing colour appearance models, ★ 1992
 - CIE Expert Symposium  '96 Color Standards for Imaging Technology, ★ Vienna 1996
@@ -141,7 +141,7 @@
 
 模型使用時必須指定的條件：
 
-**★★★ 投影片 `L17_s005 / s007`「Condition of viewing」的圖 —— 五個標註，全部要認得**
+**★★★ 教材「Condition of viewing」的圖 —— 五個標註，全部要認得**
 ```
                          💡  Light source（光源）
                         ╱  ╲
@@ -291,7 +291,7 @@ Colour Appearance Space →  描述色貌 →  用 hue composition (H)
 | **Lam & Rigg** | **Bradford**（Rigg 是老師的指導教授） | **大視野**、表面色、複雜場 |
 | **Kuo & Luo / LUTCHI** | **老師團隊**，用 **magnitude estimation** | 表面色、螢幕、透射片；簡單場 |
 
-**★ 投影片 `L17_s016_021m29s.png`「Two Categories of Colour Appearance Data」逐字**
+**★ 教材「Two Categories of Colour Appearance Data」原文**
 ```
 · Corresponding Colour (★ 8 Sources)
    – CSAJ, Breneman, McCann, Fairchild, Lam & Rigg, Helson et al,
@@ -304,7 +304,7 @@ Colour Appearance Space →  描述色貌 →  用 hue composition (H)
 > 這就是為什麼 **LUTCHI 被稱為他最重要的學術遺產**：
 > **CIECAM97s / CIECAM02 有一半的證據基礎是他實驗室產出的。**
 
-**★★★ 規模（投影片 `L17_s017_022m56s.png` 標題）**
+**★★★ 規模（教材 標題）**
 ```
 Corresponding Data Sets:  ★ 14 Groups - 30 Phases - 690 Colours
 ```
@@ -312,7 +312,7 @@ Corresponding Data Sets:  ★ 14 Groups - 30 Phases - 690 Colours
 **照度範圍極廣：從 `1.3` 到 `38,750` lux**（Breneman 的透射片資料到 38750）。
 
 **(B) 量值估計資料（Magnitude Estimation Data）**——老師團隊的資料
-**★★★ 規模（投影片 `L17_s018_023m58s.png` 標題）**
+**★★★ 規模（教材 標題）**
 ```
 Magnitude Estimation Data sets:  ★ 7 Groups - 48 Phases - 4945 Colours
 ```
@@ -347,7 +347,7 @@ Magnitude Estimation Data sets:  ★ 7 Groups - 48 Phases - 4945 Colours
 > **⚠️ 但也要看到限制**：**整個 CIECAM97s/02 的對應色證據只有 690 個顏色。**
 > 這就是文末出入第 7 條「對應色資料集的規模是這個領域的瓶頸」的具體數字。
 
-### 8-2 評估方法（投影片 `L17_s020_025m21s.png`「Testing Methods」逐字）
+### 8-2 評估方法（教材「Testing Methods」原文）
 ```
 · Corresponding Colour
      ★ CMC(1:1) ΔE between the M(D) and P(D)
@@ -395,7 +395,7 @@ Magnitude Estimation Data sets:  ★ 7 Groups - 48 Phases - 4945 Colours
 | **2** | **近中性色的 chroma 不等於 0**（誤差 > 1，「高度不滿意」） | **CIELAB 一定會歸零**，色貌模型不能比它差 | 修正到接近 0，且**離散度小很多** |
 | **3** | **★ 亮度改變時 saturation 不該變，但 CAM97s 變化很大**（尤其在 2 cd/m² 這種極低亮度） | **理論要求**：亮度↑ → M↑ 且 Q↑ → **s = M/Q 應該保持不變** | **CIECAM02 是平的** |
 
-### ★★★ 投影片其實給了「四張」`Drawbacks of the CIECAM97s`（`L17_s026 / s027 / s028 / s029`）
+### ★★★ 投影片其實給了「四張」`Drawbacks of the CIECAM97s`
 | 投影片 | 圖上畫了什麼 | 對應缺陷 |
 |---|---|---|
 | **`s026`** | 兩張 `Predicted Lightness vs Y` 曲線：**左圖（97s）在原點附近被畫了一個紅圈**，**右圖（02）同一位置畫綠圈** | **① 黑點的 J 不等於 0**（紅圈 = 壞、綠圈 = 修好） |
@@ -456,7 +456,7 @@ Colourfulness Performance (CV)  CIECAM97s ★18.23  vs  CIECAM02  19.16   [97s �
 > ```
 > **★★ 「CIE 換模型的理由從來不是準確度，而是穩健性與簡潔性」——這是本課最反直覺、也最值得寫進答案的一句話。**
 
-### ★★ 各模型與「視覺精度」的比較（投影片 `L17_s022 – s025`）
+### ★★ 各模型與「視覺精度」的比較
 四張長條圖，每張都畫了一條**橫向的黃線標註 `Visual precision`**：
 | 投影片 | 比較的屬性 | 視覺精度線 | 表現最差的模型 |
 |---|---|---|---|
@@ -511,7 +511,7 @@ Colourfulness Performance (CV)  CIECAM97s ★18.23  vs  CIECAM02  19.16   [97s �
 
 ## 10. CIE TC 1-27 的產業驗證實驗（00:42:43–00:49:58）
 
-**★ 投影片 `L17_s049_043m04s.png` 逐字**
+**★ 教材 逐字**
 ```
 CIE TC1.27
 Specification of Colour Appearance for reflective Media and
@@ -530,14 +530,14 @@ Self-luminous Display Comparisons
 > **TC 1-27 是第一次拿「整張真實影像」去測色貌模型。**
 > **→ 這才是產業真正的使用情境，也是「學術模型 → 可用工具」的關鍵一步。**
 
-**★ 測試用的四張複雜影像（投影片 `L17_s050_043m53s.png`）**
+**★ 測試用的四張複雜影像**
 ```
 Musician（樂手）  ·  Golf（高爾夫）  ·  Barn（穀倉）  ·  U-chart（色票圖）
 ```
 > **★ 選圖邏輯與 L14 §8-1 一致**：**膚色（Musician）、大面積自然色（Golf 草地、Barn 天空）、
 > 以及一張「有標準色塊可以量」的 U-chart 當對照。**
 
-**★★★ 受測的八個模型（投影片 `L17_s052_046m35s.png`「The eight tested Models」逐字）**
+**★★★ 受測的八個模型（教材「The eight tested Models」原文）**
 ```
 1  CIELAB      (CIE, 1986)
 2  RLAB        (Fairchild, 1996)          → RLAB(avg) , RLAB(dim)
@@ -561,7 +561,7 @@ Musician（樂手）  ·  Golf（高爾夫）  ·  Barn（穀倉）  ·  U-chart
 > 是八個模型裡變體最多的 —— **因為那時正在調 dim surround 該用哪個 Nc。**
 > **這就是「參數還沒定案」的模型長什麼樣子。**
 
-**★ 實驗設備（投影片 `L17_s053_047m02s.png`「Viewing configuration」）**
+**★ 實驗設備（教材「Viewing configuration」）**
 ```
 右：VeriVide viewing cabinet（VeriVide 標準燈箱，放印刷樣品）
 左：Barco monitor（Barco 專業螢幕）
@@ -584,7 +584,7 @@ CRT 螢幕上的影像
 **★ 觀察方法：短期記憶匹配（short-term memory matching）（00:47:26）**
 > **「在燈箱裡看印刷影像，記住它，然後把燈箱關掉、轉頭看螢幕，判斷像不像。」**
 
-**★★★ 實驗規模與精確條件（投影片 `L17_s055_048m17s.png`「Viewing condition」逐字）**
+**★★★ 實驗規模與精確條件（教材「Viewing condition」原文）**
 ```
               ┌──────── Print ────────┐   ┌──────── CRT ─────────┐
 Phase   Illuminant    x       y    L(cd/m²)  Illuminant   x      y    L(cd/m²)
@@ -663,7 +663,7 @@ Note:  ★ 3 × 4 × 20 × 36 = 8,640 estimations
 
 > **★ 記法：Stevens 管「明暗對比」，Hunt 管「彩度」。**
 
-### ★★★ 投影片 `L17_s057_050m01s.png` 把兩個效應並排畫在同一張上 —— 這張最好記
+### ★★★ 教材 把兩個效應並排畫在同一張上 —— 這張最好記
 ```
       Stevens Effect                       Hunt Effect
    Brightness vs Luminance            Colourfulness vs Luminance
@@ -701,7 +701,7 @@ Note:  ★ 3 × 4 × 20 × 36 = 8,640 estimations
 > **★ 而 saturation = M/Q 因為分子分母同步變大而保持不變**（見 L16 §3-3）——
 > **這三件事必須一起理解，考試常合併出。**
 
-**★ 兩張定量圖（投影片 `L17_s058` 與 `s059`）**
+**★ 兩張定量圖（教材 與 `s059`）**
 | 投影片 | 標題 | 橫軸 | 曲線族 |
 |---|---|---|---|
 | `s058` | **Hunt Effect** | **log₁₀ L_w**（−2 到 6） | **`C* = 20, 40, 60, 80`** 四條 —— 彩度越高，隨亮度上升得越陡 |
@@ -726,7 +726,7 @@ Note:  ★ 3 × 4 × 20 × 36 = 8,640 estimations
 > 「做數位電影時，你必須調高對比，才能把原本的外觀救回來。
 > 這是色貌模型最典型的應用。」**
 
-**★★★ 定量圖（投影片 `L17_s062_055m33s.png`「Surround Effect」，我把讀到的數值列出來）**
+**★★★ 定量圖（教材「Surround Effect」，我把讀到的數值列出來）**
 ```
 橫軸：Average → Dim → Dark        縱軸：預測的明度 J
               Average    Dim    Dark     變化
@@ -762,14 +762,14 @@ Note:  ★ 3 × 4 × 20 × 36 = 8,640 estimations
   放在【白背景】→ 看起來更暗
 ```
 - **色塊與影像都適用**
-- **★ 投影片 `L17_s063_055m37s.png` 用「兩排六格」示範**：
+- **★ 教材 用「兩排六格」示範**：
   ```
   上排：同一個灰方塊，放在【白底】【灰底】【黑底】
   下排：同一叢粉紅色花，放在【白底】【灰底】【黑底】
   ```
   **→ 上排證明它對「單純色塊」成立，下排證明它對「真實影像」一樣成立。**
 
-**★★★ 定量圖（投影片 `L17_s064_056m33s.png`，橫軸是 `Y_b`）**
+**★★★ 定量圖（教材，橫軸是 `Y_b`）**
 ```
 橫軸：Y_b（背景的亮度因數，0 → 100）    縱軸：預測的明度 J
               Y_b=0    Y_b=100    變化
@@ -798,7 +798,7 @@ Note:  ★ 3 × 4 × 20 × 36 = 8,640 estimations
 
 **這張圖是整門課的收斂點。**
 
-### ★★★★ 投影片 `L17_s065_056m57s.png`「6. Apply CAMs in image reproduction」的原始方塊圖
+### ★★★★ 教材「6. Apply CAMs in image reproduction」的原始方塊圖
 ```
    Input device signals                              Output device signals
             │                                                  ▲
@@ -880,9 +880,9 @@ Note:  ★ 3 × 4 × 20 × 36 = 8,640 estimations
 
 ---
 
-## ⚠️ 轉錄勘誤
+## ⚠️ 名詞誤植對照
 
-| 轉錄文字 | 正確 |
+| 常見誤植 | 正確 |
 |---|---|
 | Hound / Hond / Bob Hound | **Hunt**（**Robert W. G. Hunt**, "Bob Hunt"） |
 | Nyantani / Nayatani | **Nayatani**（納谷嘉信，日本） |

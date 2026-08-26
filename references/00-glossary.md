@@ -1,4 +1,4 @@
-# 名詞對照表 + Whisper 轉錄勘誤總表
+# 名詞對照表 + 名詞誤植對照總表
 
 ---
 
@@ -176,12 +176,12 @@
 
 ---
 
-# 第二部分：Whisper 轉錄勘誤總表
+# 第二部分：名詞誤植對照總表
 
-**用途**：若你手上有課程的原始轉錄檔，可用本表對照。左欄是 Whisper 轉錄常見的誤植，右欄是正確用詞。
+**用途**：這些名詞在中文語境下特別容易聽錯或寫錯。左欄是常見的誤植寫法，右欄是正確用詞。
 
 ## 人名
-| 轉錄 | 正確 |
+| 常見誤植 | 正確 |
 |---|---|
 | Hound / Hond / Bob Hound | **Hunt**（Robert W. G. Hunt） |
 | McArden / McAdden / Michael Yadam / Magartan | **MacAdam**（David L. MacAdam） |
@@ -212,7 +212,7 @@
 | Gibson Belcher | **Gibson & Fairchild** |
 
 ## 機構、地名、公司
-| 轉錄 | 正確 |
+| 常見誤植 | 正確 |
 |---|---|
 | CrossFit Electronics | **Crosfield Electronics** |
 | Luchest / Luchus Institute of Technology | **Rochester Institute of Technology (RIT)** |
@@ -232,7 +232,7 @@
 | Ray-Dien / Ray-Si | 瑞典 Sweden / 瑞士 Switzerland |
 
 ## 專有名詞
-| 轉錄 | 正確 |
+| 常見誤植 | 正確 |
 |---|---|
 | metamorphism / metabolism / metamuse / metamorism | **metamerism / metamer** |
 | observer metabolism | **observer metamerism** |

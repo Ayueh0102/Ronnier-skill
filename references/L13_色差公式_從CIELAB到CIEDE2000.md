@@ -46,7 +46,7 @@
 ## 2. 1976 之前的三大家族（00:07:31–00:18:15）
 
 ### 家族一：Munsell-based（以 Munsell 間隔為基礎）
-**投影片 `L13_s010_011m56s.png` / `s014_016m46s.png`「Munsell Based Formulae」逐字：**
+**教材「Munsell Based Formulae」原文：**
 ```
 · Nickerson's Index of fading (1936)
       ΔE(Index of fading) = (2/5)·C·ΔH + 6·ΔV + 3·ΔC
@@ -147,7 +147,7 @@ ANLAB  (1944)                      CIELAB (1976)
 > **★ 判準：如果 xy 是均勻色空間，這些橢圓應該全部是「大小相同的正圓」。**
 > **結果：全是大小懸殊的橢圓 → xy 不均勻。**
 
-**衍生公式（投影片 `L13_s011 / s013`「MacAdam Based Formulae」逐字）**
+**衍生公式（教材「MacAdam Based Formulae」原文）**
 ```
 · Simon-Goodwin graphic chart (1958)
 · FMC-I  (1967)
@@ -173,7 +173,7 @@ ANLAB  (1944)                      CIELAB (1976)
 > **xy 色度圖有「加法性（additivity）」**：兩個色光混合，結果一定落在兩點的連線上，而且比例可算。
 > **線性轉換會保留這個性質**——所以照明與顯示產業非常想要這一類的色空間。
 
-**成員與年份**（★ 2026-08-26 由投影片 `slides/L13/L13_s015_016m50s.png` 補上精確年份）：
+**成員與年份**（★ 2026-08-26 由教材 補上精確年份）：
 | 年份 | 成員 |
 |---|---|
 | **1935** | Judd's chromaticity diagram |
@@ -195,7 +195,7 @@ ANLAB  (1944)                      CIELAB (1976)
 2. **CIE 1976 L\*u\*v\*（CIELUV）** → **電視與照明產業用**
 3. **CIE 1976 L\*a\*b\*（CIELAB）** → **表面色與影像產業用**
 
-**投影片 `L13_s016_018m52s.png`「1976」逐字：**
+**教材「1976」原文：**
 ```
 · CIE 1976 u'v' chromaticity diagram
 · CIE 1976 L*u*v* or CIELUV
@@ -228,7 +228,7 @@ ANLAB  (1944)                      CIELAB (1976)
 > 這是一個真正的取捨，不是誰做得好不好的問題。
 
 ### 3-1 CIELUV
-**投影片 `L13_s017 / s019`「CIE 1976 u'v' diagram」逐字：**
+**教材「CIE 1976 u'v' diagram」原文：**
 ```
 u' = 4X/ (X+15Y+3)          = 4x/(-2x+12y+3)
 v' = 9Y/ (X+15Y+3)          = 9y/(-2x+12y+3)
@@ -260,7 +260,7 @@ v* = 13 L* (v′ − v′n)      （n = 白點）
 極座標：C*uv = √(u*² + v*²),   h_uv = arctan(v*/u*)
 ```
 
-### ★★ CIELUV 的完整式（投影片 `L13_s018 / s020`「CIEL\*u\*v\* (CIELUV)」逐字）
+### ★★ CIELUV 的完整式（教材「CIEL\*u\*v\* (CIELUV)」原文）
 ```
 For Y/Yn > 0.008856
       L* = 116(Y/Yn)^(1/3) − 16
@@ -325,7 +325,7 @@ s_uv = C*uv / L*
 > 所以**飽和度是一個「二維」的量（彩度與明度的比值）**，而彩度是三維空間裡的一個座標。
 
 ### 3-2 CIELAB
-**投影片 `L13_s021_023m20s.png`「CIEL\*a\*b\* (CIELAB)」逐字（★ 這張完全正確，可直接照抄）：**
+**教材「CIEL\*a\*b\* (CIELAB)」原文（★ 這張完全正確，可直接照抄）：**
 ```
 L* = 116 f(Y/Yn) − 16
 a* = 500[ f(X/Xn) − f(Y/Yn) ]
@@ -348,7 +348,7 @@ Otherwise,  f(I) = 7.787 I + 16/116
 - 中心是**無彩色**，往外彩度遞增；一圈是**紅→黃→綠→藍→紫**
 - **同一個 a\*b\* 平面上的顏色，明度相同**
 
-### 3-3 ★★ 色差怎麼算（投影片 `L13_s023_025m07s.png`「CIELAB Colour Difference Formula」逐字）
+### 3-3 ★★ 色差怎麼算（教材「CIELAB Colour Difference Formula」原文）
 ```
 ΔE = √( (ΔL*)² + (Δa*)² + (Δb*)² )
    = √( (ΔL*)² + (ΔC*ab)² + (ΔH*ab)² )
@@ -446,7 +446,7 @@ MacAdam 的 JND  →  太小（是恰可辨差）
 ```
 **所以兩個舊資料集都不對症。必須做新實驗。**
 
-### 6-1b ★ 「After 1976」完整時間軸（投影片 `L13_s030_035m26s.png` 原文）
+### 6-1b ★ 「After 1976」完整時間軸（教材 原文）
 
 | 年 | 公式 | ISO 採用 |
 |---|---|---|
@@ -462,7 +462,7 @@ MacAdam 的 JND  →  太小（是恰可辨差）
 > 這反映了兩代公式的結構差異：舊的只調明度與彩度權重，新的三個維度都可調。
 
 ### 6-2 CMC 公式（英國）★ 紡織業至今仍在用
-**資料來源**（★ 數字已由投影片 `L13_s031_037m32s.png` 逐字確認）：
+**資料來源**（★ 數字已由教材 逐字確認）：
 - **JPC Formula — McDonald (1979)**，在 J&P Coats（JPC）做的實驗
 - **McDonald's data：55 個色中心，包含 600 個聚酯線（polyester thread）樣品，由 8 位評色員（colourists）評定**
 - 另一組：**JPC's 8,000 pairs，由「一位」染廠經理（a dye-house manager）評定**
@@ -488,7 +488,7 @@ McDonald 資料 (1979) → JPC79 公式 → （修正 bug、平滑化）
   - **CMC(1:1)** = 感知性
 
 ### 6-3 ★★★ BFD 公式 —— 老師自己的博士研究
-**投影片 `L13_s035 / s038 / s040`「Small Colour-Differences — Luo & Rigg ellipses, 1986」逐字：**
+**教材「Small Colour-Differences — Luo & Rigg ellipses, 1986」原文：**
 ```
 Acceptability
    Industrial data
@@ -557,7 +557,7 @@ Combine both data by preparing textile samples to adjust sizes of ellipses
 > 這正是 CIEDE2000 後來要把 `S_L` 加回來的原因（見第 7 節第一項修正）。
 
 ### 6-5 ★★ CIEDE2000 的誕生（00:48:25–00:50:36）
-**投影片 `L13_s042_047m28s.png`「Development of CIEDE2000」逐字：**
+**教材「Development of CIEDE2000」原文：**
 ```
 · Background
    – ★ Which formula, CMC, CIE94, BFD or LCD?
@@ -605,7 +605,7 @@ Combine both data by preparing textile samples to adjust sizes of ellipses
 
 > **老師的比喻：「CIELAB 就像一個生病的病人（病人），需要五種不同的治療。」**
 
-### ★★★★ 投影片 `L13_s044_052m06s.png`「Five Corrections to CIELAB」原文（**背這一張**）
+### ★★★★ 教材「Five Corrections to CIELAB」原文（**背這一張**）
 ```
 · Chroma weighting function (S_C) - ★ same as CIE94
 · Lightness weight function (S_L)
@@ -614,7 +614,7 @@ Combine both data by preparing textile samples to adjust sizes of ellipses
 · Neutral correction (a')
 ```
 
-**完整公式（投影片 `L13_s043 / s045`「CIEDE2000 Formulae」逐字）**
+**完整公式（教材「CIEDE2000 Formulae」原文）**
 ```
 ΔE = √[ (ΔL*/(K_L S_L))² + (ΔC*ab/(K_C S_C))² + (ΔH*ab/(K_H S_H))²
         + R_T · (ΔC*ab/(K_C S_C)) · (ΔH*ab/(K_H S_H)) ]
@@ -679,7 +679,7 @@ Combine both data by preparing textile samples to adjust sizes of ellipses
 275° ± 25°  →  即 250°–300° 之間有修正
 恰好 275° 時修正量最大；離開這個區間 → R_T = 0（不修正）
 ```
-> **★ 投影片 `L13_s048` 在那個橢圓群上直接畫了框並標註 `Saturated blue region`**
+> **★ 教材 在那個橢圓群上直接畫了框並標註 `Saturated blue region`**
 > —— **「高彩度的藍區」才是問題所在，不是整個藍色。**
 > 這由 `R_C = 2√(C̄′⁷/(C̄′⁷+25⁷))` 保證：**C̄′ 小的時候 R_C → 0，旋轉修正自動關掉。**
 > **所以 R_T 的開關是「兩個條件同時成立」**：
@@ -722,8 +722,8 @@ CAM02-UCS  =  一個「均勻色空間」，可以直接用歐氏距離算色差
 **應用**：數位影像、電腦、顯示器，現在全部用 CIEDE2000。
 
 ### ★★★ 額外收穫：一張「老師沒講到」的投影片 —— CIEDE2000 的誠實檢討
-> **來源說明**：`L13_s061_061m32s.png` 是老師下課後在 Zoom 上捲動 PDF 時掃過的畫面，
-> **課堂錄音裡沒有講到這一頁**，逐字稿裡也不會有。**這是只有抽投影片才拿得到的內容。**
+> **來源說明**：教材 是老師下課後在 Zoom 上捲動 PDF 時掃過的畫面，
+> **課堂上沒有講到這一頁。** **這是只有翻教材才拿得到片才拿得到的內容。**
 
 **投影片原文（標題應為 `Trials of CIEDE2000`，即 `After 2001` 的第 1 項）：**
 ```
@@ -755,7 +755,7 @@ CAM02-UCS  =  一個「均勻色空間」，可以直接用歐氏距離算色差
 > **答申論題時如果能寫出「CIEDE2000 在塗料業成功、在紡織業相對 CMC 無顯著改善」，
 > 會顯示你不是只背結論。**
 
-### ★★ 「After 2001」——投影片 `L13_s051_057m01s.png` 列的四個後續議題
+### ★★ 「After 2001」——教材 列的四個後續議題
 ```
 1. Trials of CIEDE2000
 2. Parametric effect
@@ -777,9 +777,9 @@ CAM02-UCS  =  一個「均勻色空間」，可以直接用歐氏距離算色差
 
 ---
 
-## ⚠️ 轉錄勘誤
+## ⚠️ 名詞誤植對照
 
-| 轉錄文字 | 正確 |
+| 常見誤植 | 正確 |
 |---|---|
 | C-Lab / CLAB（兩個都念成 CLAB） | 需依上下文分辨 **CIELAB** 與 **CIELUV** |
 | McArden / McAdden / Michael Yadam | **MacAdam**（David L. MacAdam） |
@@ -845,7 +845,7 @@ R_T = − sin(2Δθ) · R_C
 Δθ  = 30 · exp{ −[(h̄′−275°)/25]² }                  ← ★ 275° 就在這裡
 R_C = 2 · √( C̄′⁷ / (C̄′⁷ + 25⁷) )
 ```
-（老師說 T 是「用 multi-sensors 技術算的」——那是轉錄錯誤，T 就是上面這串餘弦項的和。）
+（老師說 T 是「用 multi-sensors 技術算的」——那是記錄錯誤，T 就是上面這串餘弦項的和。）
 
 ### 6. **CIEDE2000 的參考條件（老師沒講，但用錯會出大問題）** ★
 CIEDE2000 是在一組**明確指定的條件**下擬合出來的（CIE 142:2001）：
@@ -862,7 +862,7 @@ CIEDE2000 是在一組**明確指定的條件**下擬合出來的（CIE 142:2001
 - 常見誤用：拿 CIEDE2000 去評 **ΔE > 10 的大色差**（超出擬合範圍）、或評**有紋理的樣品**、或**有間隔的樣品對**。
 
 ### 7. CIEDE2000 的已知數學缺陷 ★（★ 2026-08-26 更新：老師的投影片上其實有寫，只是課堂沒講到）
-> **★ 投影片 `L13_s061`（老師課後捲 PDF 時掃過的那一頁）明列：**
+> **★ 教材（老師課後捲 PDF 時掃過的那一頁）明列：**
 > **`Sharma's finding on irregularity on hue difference`**
 > —— **這個缺陷是被官方承認的，不是外界的抱怨。** 詳見正文第 8 節後的專段。
 

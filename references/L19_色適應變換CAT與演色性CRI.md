@@ -32,9 +32,9 @@
 > 一個是 illuminant shift，另一個是 adaptive shift。
 > 曲線看起來差很多，但**經過適應位移之後，它們就一樣了**。」**
 
-### ★★★ 三個定義的官方措辭（投影片 `L19_s002 / s003 / s012` 逐字）—— 這三個很容易混，一次釐清
+### ★★★ 三個定義的官方措辭（教材原文）—— 這三個很容易混，一次釐清
 
-**① Illuminant Colorimetric Shift 照明體色度位移（`L19_s002 / s004`）**
+**① Illuminant Colorimetric Shift 照明體色度位移**
 ```
 The change in the ★ XYZ tristimulus values of A SINGLE SAMPLE
 when its illuminant is changed.
@@ -46,7 +46,7 @@ The Illuminant Colorimetric Shift is the difference between X₁Y₁Z₁ and X�
 ```
 > **一個樣品、兩個光源，XYZ 的差。純物理，不涉及人眼。**
 
-**② Illuminant Metamerism Index 照明體同色異譜指數（`L19_s003 / s005`）**
+**② Illuminant Metamerism Index 照明體同色異譜指數**
 ```
 The extent to which ★ A PAIR OF SAMPLES that match under an illuminant of one colour
 fail to match when the colour of the illuminant is changed.
@@ -58,7 +58,7 @@ fail to match when the colour of the illuminant is changed.
 > **兩個樣品、兩個光源。★ 注意投影片的說明：「這個改變『造成』照明體色度位移」
 > —— 也就是說 ② 是建立在 ① 之上的：一對樣品各自發生 ①，兩個位移不一樣，配對就破了。**
 
-**③ Colour Constancy 色恆常（`L19_s012_007m57s.png`）—— ★★★★ 那張三角形圖**
+**③ Colour Constancy 色恆常—— ★★★★ 那張三角形圖**
 ```
 The extent to which ★ A SINGLE SAMPLE stays the same colour
 when the colour of the illuminant is changed
@@ -125,7 +125,7 @@ X_c, Y_c, Z_c   對應到    X_wr, Y_wr, Z_wr   （參考條件）
 ```
 
 ### 3-2 六個步驟
-**★★★★ 投影片 `L19_s014_012m03s.png`「VON KRIES CHROMATIC ADAPTATION TRANSFORM」逐字**
+**★★★★ 教材「VON KRIES CHROMATIC ADAPTATION TRANSFORM」原文**
 ```
                             Test Colour        Reference White
    In conditions considered   X  Y  Z          X_w   Y_w   Z_w
@@ -177,10 +177,10 @@ X_c, Y_c, Z_c   對應到    X_wr, Y_wr, Z_wr   （參考條件）
 
 （呼應 L18 的「只有曲線高度改變、形狀不變」。）
 
-### 3-3 ★★★★ CAT02（現行標準）—— 投影片 `L19_s015 / s017 / s018` 給了完整的四步驟與全部矩陣
+### 3-3 ★★★★ CAT02（現行標準）—— 教材 給了完整的四步驟與全部矩陣
 - **「後來我們有了更好的變換，叫 CAT02。現在大家都在用 CAT02。」**
 
-**Step 1（投影片 `L19_s015_014m50s.png`）：轉到「銳化的」RGB**
+**Step 1：轉到「銳化的」RGB**
 ```
 Convert the sample tristimulus values, X, Y, Z to ★ SHARPENED R, G, B responses
 by using the CAT02 forward matrix, M_CAT02
@@ -190,7 +190,7 @@ by using the CAT02 forward matrix, M_CAT02
   ⎣B⎦            ⎣Z⎦                        ⎣  0.0030   0.0136   0.9834 ⎦
 ```
 
-**Step 2（投影片 `L19_s017_015m20s.png`）：算 D 因子**
+**Step 2：算 D 因子**
 ```
 Compute the ★ D factor, the degree of adaptation to the white point.
 Equation: default value;  ★ full adaptation: D = 1;  no adaptation: D = 0.
@@ -221,7 +221,7 @@ e = 2.71828.
 > （這正是 **L18 §5 的 CII 要特地寫明「D factor set equal to 1」** 的原因 ——
 > 它要跳過這個公式，強制完全適應。）
 
-**Step 3（同 `L19_s017`）：套用增益**
+**Step 3（同 教材）：套用增益**
 ```
 Obtain R_c, G_c, B_c, the R, G, B values for corresponding colour
 (the subscripts ★ w and wr indicate the reference white in the FIRST and
@@ -247,14 +247,14 @@ Obtain R_c, G_c, B_c, the R, G, B values for corresponding colour
 > **★ 另一個新東西是 `(Y_w / Y_wr)`** —— 古典 von Kries 沒有這一項。
 > 它負責**亮度水準的正規化**：兩個照明體的絕對亮度不同時，先把亮度比拉平。
 
-**Step 4（投影片 `L19_s018_015m29s.png`）：轉回 XYZ**
+**Step 4：轉回 XYZ**
 ```
    ⎡X_c⎤              ⎡R_c⎤                    ⎡  1.096124  −0.278869   0.182745 ⎤
    ⎢Y_c⎥ = M⁻¹_CAT02  ⎢G_c⎥    M⁻¹_CAT02 =     ⎢  0.454369   0.473533   0.072098 ⎥
    ⎣Z_c⎦              ⎣B_c⎦                    ⎣ −0.009628  −0.005698   1.015326 ⎦
 ```
 
-### ★★★ 「Sharpened（銳化）」到底是什麼意思？（投影片 `L19_s016_015m09s.png`）
+### ★★★ 「Sharpened（銳化）」到底是什麼意思？
 ```
 圖例：──── Sharpened sensitivities      （實線）
       ---- Typical cone sensitivities   （虛線）
@@ -319,7 +319,7 @@ X_c Y_c Z_c   ：預測出來的【對應色】
 > **★ 老師的說明：「我把演色性放在最後講，因為它把所有東西都包含進去了。」**
 > 確實——**SPD + 反射率 + CMF + CAT + 色差**，五樣全部用上。
 
-### ★★★★ 投影片 `L18_s080_049m25s.png`「CIE Colour Rendering Index (CIE-Rₐ)」的流程圖（六個編號方塊）
+### ★★★★ 教材「CIE Colour Rendering Index (CIE-Rₐ)」的流程圖（六個編號方塊）
 ```
    Test source                             Reference illuminant
    [SPD 圖]                    Planckian (CCT<5000 K)  │  Standard Daylight (CCT ≥ 5000 K)
@@ -390,7 +390,7 @@ X_c Y_c Z_c   ：預測出來的【對應色】
 【9】★ Ra = (R_1 + R_2 + … + R_8) / 8   （8 個取平均）
 ```
 
-**★★★ 投影片的緊湊寫法（`L19_s021` 等，完全等價，計算時更好用）**
+**★★★ 投影片的緊湊寫法（教材 等，完全等價，計算時更好用）**
 ```
    R_a = 100 − [4.6/8] [ d₁ + d₂ + d₃ + d₄ + d₅ + d₆ + d₇ + d₈ ]
 
@@ -433,7 +433,7 @@ X_c Y_c Z_c   ：預測出來的【對應色】
 > **「一般來說，你越省電，色彩品質就越差。
 > 如果你要高演色性，效能通常都很低（20 以下）。」**
 
-### ★★★★ 投影片 `L18_s081_049m37s.png` 的完整光源對照表（逐字）
+### ★★★★ 教材 的完整光源對照表（逐字）
 ```
    Source                              CCT (K)    CRI Ra    Efficacy (lm/W)
    ─────────────────────────────────────────────────────────────────────────
@@ -537,9 +537,9 @@ X_c Y_c Z_c   ：預測出來的【對應色】
 
 ---
 
-## ⚠️ 轉錄勘誤
+## ⚠️ 名詞誤植對照
 
-| 轉錄文字 | 正確 |
+| 常見誤植 | 正確 |
 |---|---|
 | plantain radiators | **Planckian radiator** 普朗克輻射體（黑體） |
 | von Kreis / von Kriss | **von Kries** |
@@ -563,7 +563,7 @@ X_c Y_c Z_c   ：預測出來的【對應色】
 - **考試若照老師教材寫 10°，實作與論文請一律用 2°。**
 
 ### 2. 8 個測試色樣的實際規格 ★★ **2026-08-26 更正：老師的投影片其實印了完整清單，而且與 CIE 標準完全吻合**
-> **★★★★ 投影片 `L19_s021 / s023 / s025 / s027 / s029`「CIE GENERAL COLOUR RENDERING INDEX」逐字：**
+> **★★★★ 教材「CIE GENERAL COLOUR RENDERING INDEX」原文：**
 > ```
 >       ★ R_a = 100 − [4.6/8][ d₁ + d₂ + d₃ + d₄ + d₅ + d₆ + d₇ + d₈ ]
 >

@@ -15,7 +15,7 @@
 - **翻開色書：一邊是綠、另一邊就是紅**（互補色成對編排）
 - 結構上像 Munsell 的**色立體（color tree）**：中央是灰階（白→黑），每個色相是一個**三角形**（類似 NCS）
 
-### 1-2 三個屬性（投影片 `L12_s006_003m22s.png`「Ostwald - Dimensions」逐字）
+### 1-2 三個屬性（教材「Ostwald - Dimensions」原文）
 ```
 · Lightness
    – A log scale providing approximately equal visual steps
@@ -42,7 +42,7 @@
 
 **色相區的命名**：紅、橙、黃、**葉綠（leaf green）**、**海綠（sea green）**、藍、紫。
 
-### 1-2b 標記法（投影片 `L12_s007_004m34s.png`「Ostwald - Notation」）
+### 1-2b 標記法（教材「Ostwald - Notation」）
 ```
 · 24 hues
 · ★ Maximum obtainable excitation purity, p
@@ -67,7 +67,7 @@ NCS   ：full colour 是「想像的」——不印出來
 > **★ 反觀 NCS：full colour 是「想像的、不印出來的」，所以永遠不會過期。**
 > 這是一個**設計哲學決定產品壽命**的絕佳案例。
 
-### 1-5 ★★ 版本沿革（投影片 `L12_s001 / s004 / s049`「Ostwald - History」逐字，六列）
+### 1-5 ★★ 版本沿革（教材「Ostwald - History」原文，六列）
 ```
 1915   Die Farbelechre (The Color Primer)
 1942   Color Harmony Manual + Index (1st Ed)
@@ -90,7 +90,7 @@ NCS   ：full colour 是「想像的」——不印出來
 > Ostwald 的 ***Die Farbenfibel***；***Die Farbenlehre***（1918–23）是另一套更大部頭的著作。
 > 考試不會考拼字，記「**1915 年前後的色彩入門書**」即可。
 
-**與 CIE 的關係（投影片 `L12_s008_005m09s.png`「Relation to the CIE System」）**
+**與 CIE 的關係（教材「Relation to the CIE System」）**
 ```
 · Ostwald System        – Foss et al.
 · Color Hamony Manual   – Granville et al.
@@ -102,7 +102,7 @@ NCS   ：full colour 是「想像的」——不印出來
 > **同一批 OSA 的人，同一個年代，把 Munsell 和 Ostwald 都拿去和 CIE 系統對接**，
 > 這就是 1940 年代「色序系統 → CIE 座標」的統一運動。（呼應 L11 的 Munsell Renotation）
 
-### 1-6 Ostwald 總結（投影片 `L12_s009_005m24s.png`「Ostwald - Summary」逐字，五點）
+### 1-6 Ostwald 總結（教材「Ostwald - Summary」原文，五點）
 ```
 · Popular in art and design
 · ★ Like NCS, based on Herring's opponent colour theory.
@@ -126,7 +126,7 @@ NCS   ：full colour 是「想像的」——不印出來
 
 **DIN = 德國工業標準**，**1953 年起**有實體樣本。
 
-**指導原則（投影片 `L12_s012_008m12s.png`）**
+**指導原則**
 ```
 · Guiding Principles:
    – ★ Equality of visual spacing for each of its three variables:
@@ -136,7 +136,7 @@ NCS   ：full colour 是「想像的」——不印出來
 > 這句話已經預告了 2-3 的限制：**逐軸均勻 ≠ 整體均勻**。
 > 對比 Ostwald 的原則是「視覺間隔相等 **+ 色相互補**」，DIN 拿掉了互補性，只保留等間距。
 
-### 2-0 ★★ DIN 沿革（投影片 `L12_s013_008m51s.png`「DIN - History」逐字，五列）
+### 2-0 ★★ DIN 沿革（教材「DIN - History」原文，五列）
 ```
 1930   Deutsches Institute fur Normung (DIN)
 1938   Testing Materials, Berlin (now BAM)
@@ -158,7 +158,7 @@ NCS   ：full colour 是「想像的」——不印出來
 > **這一組對照可以直接回答「色序系統與色度系統有何根本不同」。**
 > **另一個細節**：樣本一律是 **matte（消光）** —— 避免鏡面反射干擾，呼應 L01 的量測幾何。
 
-### 2-1 ★★★ 三個屬性（TSD）——投影片 `L12_s014 / s017`「DIN - Variables」逐字
+### 2-1 ★★★ 三個屬性（TSD）——教材「DIN - Variables」原文
 ```
 · Hue Number (T)
    – ★ 24 principle hues starting with YELLOW at T=1
@@ -186,7 +186,7 @@ NCS   ：full colour 是「想像的」——不印出來
 >    這使 D 天生綁在 **MacAdam limits（最佳色軌跡）** 上 —— 見 2-2
 
 ### 2-2 ★★★ Darkness 的完整公式（老師說「這是個很奇怪的定義」）
-**投影片 `L12_s023_014m05s.png` / `s026_016m08s.png`「Relation to the CIE System」逐字：**
+**教材「Relation to the CIE System」原文：**
 ```
 · DIN 6164
 
@@ -244,7 +244,7 @@ NCS   ：full colour 是「想像的」——不印出來
 - **正式名稱**：**optimal colours**，其軌跡即 **MacAdam limits（MacAdam 極限）**
   —— 由「反射率只能是 0 或 1、且最多兩個切換點」的方波反射率產生（見文末勘誤第 5 條）
 
-### 2-3 ★★ 色卡的建構順序（投影片 `L12_s019_012m24s.png`「DIN – Development of the Atlas」逐字）
+### 2-3 ★★ 色卡的建構順序（教材「DIN – Development of the Atlas」原文）
 ```
 · Hue scaling
 · Saturation scaling
@@ -280,7 +280,7 @@ NCS   ：full colour 是「想像的」——不印出來
 - **大多數顏色偏暗**（因為飽和度尺度的設計方式）
 - 「所以看起來就不夠吸引人、賣不好」
 
-### 2-6 DIN 總結（投影片 `L12_s024 / s027`「DIN - Summary」逐字，六點）
+### 2-6 DIN 總結（教材「DIN - Summary」原文，六點）
 ```
 · Physical samples available since 1953.
 · Standard in Germany.
@@ -305,7 +305,7 @@ NCS   ：full colour 是「想像的」——不印出來
 > NCS / Ostwald    Munsell（V有五次多項式，HC查表）    DIN（D有式，TS查表）    CIELAB（全公式）
 > ```
 
-### 2-5 ★★★ 與 CIE 的關係（投影片 `L12_s020_012m45s.png`「Relation to the CIE System」逐字）
+### 2-5 ★★★ 與 CIE 的關係（教材「Relation to the CIE System」原文）
 ```
 · DIN 6164
    – The main standard includes the colorimetric specification of the
@@ -338,7 +338,7 @@ NCS   ：full colour 是「想像的」——不印出來
 ## 3. Colorcurve（00:16:15–00:18:48）
 > **★ 投影片寫的是 `Colorcurve`（一個字、小寫 c），不是 `ColorCurve`。**
 
-**指導原則（投影片 `L12_s029_016m33s.png`）**
+**指導原則**
 ```
 · Guiding Principles:
    – To find an effective colour communication tool between
@@ -347,7 +347,7 @@ NCS   ：full colour 是「想像的」——不印出來
 **美國商業系統**，目標是**在「指定者（specifier，例如設計師、品牌）」與「製造者（manufacturer）」
 之間建立有效的色彩溝通工具**。
 
-### 3-1 ★★ 四大特徵（投影片 `L12_s030_017m11s.png`「Colorcurve - Features」逐字）
+### 3-1 ★★ 四大特徵（教材「Colorcurve - Features」原文）
 ```
 · ★ Colours are specified by R%, CIELAB, and XYZ.
 · Aim points are specified in CIELAB.
@@ -375,7 +375,7 @@ NCS   ：full colour 是「想像的」——不印出來
 > 這是**色序系統被 CIE 色度學收編後的產物**，時代標記非常明顯。
 > 也因此它是本節唯一**不需要**「Relation to the CIE System」那張投影片的系統——**它本來就長在 CIE 上**。
 
-### 3-2 ★★ 標記法（投影片 `L12_s032 / s034`「Colorcurve - Notation」逐字）
+### 3-2 ★★ 標記法（教材「Colorcurve - Notation」原文）
 ```
 · Lightness Level (L)
 · Red (R), Yellow (Y), Green (G) and Blue (B)
@@ -446,7 +446,7 @@ OSA-UCS     ：不管屬性——「整個空間裡任兩點的距離都對應�
 
 ## 5. Coloroid（00:20:17–00:21:18）
 
-**指導原則（投影片 `L12_s037_020m31s.png`）**
+**指導原則**
 ```
 Guiding Principles –
    ★ A universal Colour Harmonised System
@@ -466,7 +466,7 @@ Guiding Principles –
 
 ## 6. 其他被點名的系統（00:21:18–00:22:23）
 
-**投影片 `L12_s040_021m25s.png`「Some Other Systems」逐字：**
+**教材「Some Other Systems」原文：**
 ```
 · PANTONE
 · RAL
@@ -501,7 +501,7 @@ Guiding Principles –
 
 ## 7. ★★ 為什麼會有這麼多系統？（00:22:23–00:24:22）
 
-**★★★ 投影片 `L12_s041_022m19s.png`「Why do we need so many?」逐字（這是本節的標準答案骨架）**
+**★★★ 教材「Why do we need so many?」原文（這是本節的標準答案骨架）**
 ```
 · Why not use a universal notation system?
    – ★ National or industry standards
@@ -540,8 +540,8 @@ DIN ─────┘                      └─→ OSA
 
 | 障礙 | 投影片原文 | 為什麼是障礙 | 前面哪張投影片證實了它 |
 |---|---|---|---|
-| **① 數學上** | **`Complex relationship to CIE XYZ`** | 各系統與 XYZ 的關係**都不簡單**：NCS/Ostwald 完全沒公式只能查表，Munsell 只有 V 有多項式，DIN 只有 D 有公式 | `L11_s046`（NCS: *No simple relationship*）<br>`L12_s009`（Ostwald: 同上）<br>`L12_s027`（DIN: *Not-so-simple… exist*） |
-| **② 條件上** | **`Dissimilar viewing/measurement conditions`** | **各系統用的照明體 / 觀察者根本不同**，XYZ 不能直接比 | **`L12_s020`：DIN 6164 主標準是 D65/2°，另有 D65/10° 與 C/2° 補篇**<br>（Munsell Renotation 用的是 **C/2°**） |
+| **① 數學上** | **`Complex relationship to CIE XYZ`** | 各系統與 XYZ 的關係**都不簡單**：NCS/Ostwald 完全沒公式只能查表，Munsell 只有 V 有多項式，DIN 只有 D 有公式 | 教材（NCS: *No simple relationship*）<br>教材（Ostwald: 同上）<br>教材（DIN: *Not-so-simple… exist*） |
+| **② 條件上** | **`Dissimilar viewing/measurement conditions`** | **各系統用的照明體 / 觀察者根本不同**，XYZ 不能直接比 | **教材：DIN 6164 主標準是 D65/2°，另有 D65/10° 與 C/2° 補篇**<br>（Munsell Renotation 用的是 **C/2°**） |
 
 > ### ★★★ 障礙②就是老師「鐵律 ①」的再一次現身
 > > **「給你 XYZ 相同就代表顏色相配嗎？不。必須指定幾何、照明體、觀察者。」**
@@ -551,7 +551,7 @@ DIN ─────┘                      └─→ OSA
 > **要先做色適應變換（CAT，見 L19）把照明體對齊，才有資格談互轉。**
 > —— **這條線把 L12（色序系統）直接接到 L19（CAT），是很漂亮的申論題串接。**
 
-### 7-3 本講的目錄（投影片 `L12_s042_024m19s.png`「Summary」）
+### 7-3 本講的目錄（教材「Summary」）
 ```
 · Defined colour order.
 · Basis of colour order.
@@ -587,9 +587,9 @@ DIN ─────┘                      └─→ OSA
 
 ---
 
-## ⚠️ 轉錄勘誤
+## ⚠️ 名詞誤植對照
 
-| 轉錄文字 | 正確 |
+| 常見誤植 | 正確 |
 |---|---|
 | Osterwee / Osterwood / Austro-Wall / asteroid system | **Ostwald** |
 | Ding / DIN PSD | **DIN**／**DIN TSD**（Farbton, Sättigung, Dunkelstufe） |
@@ -625,7 +625,7 @@ DIN ─────┘                      └─→ OSA
 ### 3. 「Ostwald 是瑞士標準」— ★ 2026-08-26 由投影片解謎，**老師沒錯，是我誤判**
 - **原本的判斷**：Wilhelm Ostwald 是德國（波羅的海德裔）化學家、1909 諾貝爾化學獎得主，
   所以「Ostwald 是瑞士標準」聽起來像口誤，我曾標註「建議不要引用」。
-- **★ 投影片 `L12_s049`「Ostwald - History」最後一列白紙黑字寫著**：
+- **★ 教材「Ostwald - History」最後一列白紙黑字寫著**：
   ```
   1960   Swiss Color Atlas 2541
   ```
@@ -637,12 +637,12 @@ DIN ─────┘                      └─→ OSA
   | **Ostwald** | 德國化學家 W. Ostwald | 美國 *Color Harmony Manual*（1942–58）<br>**瑞士 *Swiss Color Atlas 2541*（1960）** | **沒有國家標準地位**，已停產 |
   | **DIN 6164** | 德國 DIN / BAM | DIN Colour Chart（1953 / 1983） | **德國國家標準** |
   | **NCS** | 瑞典 SIS | NCS Atlas（1979 / Ed.2） | **瑞典 SS、挪威 NS**；<br>投影片寫 **Portugal**、標準文獻寫 **Spain（UNE 48-103）**，見 L11 勘誤 |
-- **轉錄仍然混亂**（後面出現「DIN 是德國、是荷蘭系統、是瑞士系統、是 Ostwald 系統」這種錯亂句），
-  那是 Whisper 把老師一連串比較的句子接錯了，**以上表為準**。
+- **我當初的筆記在此處也很混亂**（後面出現「DIN 是德國、是荷蘭系統、是瑞士系統、是 Ostwald 系統」這種錯亂句），
+  那是我把老師一連串比較的句子記混了，**以上表為準**。
 
 ### 4. ★ DIN Darkness 公式 —— 投影片有給，但常數印錯了
 ```
-投影片 L12_s023 / s026：   D = 10 − 6.1273 · log₁₀( 40.7 · (A / A₀) + 1 )   ❌
+教材 / s026：   D = 10 − 6.1273 · log₁₀( 40.7 · (A / A₀) + 1 )   ❌
 正確：                      D = 10 − 6.1723 · log₁₀( 40.7 · (A / A₀) + 1 )   ✅
                                       ↑↑ 27 / 72 顛倒
 ```
