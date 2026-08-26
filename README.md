@@ -49,6 +49,9 @@
 
 支援 **Claude Code**、**Codex**，以及任何讀 `AGENTS.md` 的工具（Cursor / Windsurf / Cline）。
 
+> **不確定自己在用哪一個？** [`INSTALL.md`](INSTALL.md) 開頭有一張對照表，
+> 以及**每一步的預期畫面**與**疑難排解**（Windows 執行原則、skill 沒觸發、中文亂碼⋯⋯）。
+
 ### 🟣 Claude Code
 
 | 平台 | 指令 |
@@ -257,6 +260,10 @@ just read it as a textbook. Start at [`references/README_索引.md`](references/
 
 Works with **Claude Code**, **Codex**, and anything that reads `AGENTS.md`
 (Cursor / Windsurf / Cline).
+
+> **Not sure which one you're using?** [`INSTALL.md`](INSTALL.md) opens with a
+> quick decision table, and includes **expected output at each step** plus a
+> **troubleshooting section** (execution policy, skill not triggering, encoding…).
 
 ### 🟣 Claude Code
 
