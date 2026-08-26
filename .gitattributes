@@ -1,0 +1,11 @@
+# 全部文字檔在 repo 內統一用 LF，checkout 時交給各平台自己處理
+* text=auto eol=lf
+
+*.md   text eol=lf
+*.py   text eol=lf
+*.json text eol=lf
+
+# 二進位檔（若日後有）
+*.png binary
+*.jpg binary
+*.pdf binary

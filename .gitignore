@@ -1,0 +1,41 @@
+# ── 課程原始素材：一律不上傳 ──────────────────────────────
+# 授課錄影、投影片原檔、以及第三方論文 PDF 都不屬於本專案
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.m4a
+*.wav
+
+slides/
+paper/
+papers/
+recordings/
+
+# 逐字稿（如果決定不隨附，保留這幾行；要隨附就把它們註解掉）
+*.srt
+*.vtt
+*.txt
+
+# ── 抽投影片的中間產物 ────────────────────────────────
+*.png
+*.jpg
+*.jpeg
+contact_*.jpg
+sheet_*.jpg
+master_index.json
+*_index.json
+
+# ── 一般 ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
+*.tmp
+~$*
