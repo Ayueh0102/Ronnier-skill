@@ -26,13 +26,13 @@
 ## 安裝
 
 ```bash
-git clone https://github.com/<your-account>/luo-ming-color-science ~/.claude/skills/luo-ming-color-science
+git clone https://github.com/Ayueh0102/Ronnier-skill.git ~/.claude/skills/luo-ming-color-science
 ```
 
 Windows（PowerShell）：
 
 ```bash
-git clone https://github.com/<your-account>/luo-ming-color-science "$env:USERPROFILE\.claude\skills\luo-ming-color-science"
+git clone https://github.com/Ayueh0102/Ronnier-skill.git "$env:USERPROFILE\.claude\skills\luo-ming-color-science"
 ```
 
 裝好之後開一個新的 Claude Code session，問任何色彩學問題就會自動載入，
